@@ -1,0 +1,120 @@
+.wrapper-header{
+  background-color: #e5b7e9;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  max-height: 100%;
+}
+
+.header{
+    margin: 0;
+}
+
+.heading-navbar {
+  min-height: 100px;
+  min-width: 100px;
+}
+
+.logo {
+  background-image: url(../../assets/images/Cats-Union.png);
+  background-position:center;
+  background-size: contain;
+  background-repeat: no-repeat;  
+}
+
+.page-title {
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar-light {
+  background-color: #e5b7e9;
+}
+.navbar {
+  min-height: 100px;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.nav-box {
+  
+  position:relative;
+  bottom:0;
+  right:0;
+  padding: 10px 25px;
+  border: 1px;
+  margin:0px;
+  font-size:20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav li {
+  font-size: 14px;
+  padding: 0;
+}
+
+.nav-attach {
+  font-size: 0;
+}
+
+
+.nav-box-first {
+  background-color: #e5b7e9;
+  color: black;
+}
+
+.nav-box-first:hover {
+  background-color: #c97ad0;
+  color: black;
+}
+
+
+.nav-box-second {
+  background-color: #e5b7e9;
+  color: black;
+}
+
+.nav-box-second:hover {
+  background-color: #c97ad0;
+  color: black;
+}
+
+
+.nav-box-third {
+  background-color: #e5b7e9;
+  color: black;
+}
+
+.nav-box-third:hover {
+  background-color: #c97ad0;
+  color: black;
+}
+
+
+.nav-box-fourth {
+  background-color: #e5b7e9;
+  color: black;
+}
+
+.nav-box-fourth:hover {
+  background-color: #c97ad0;
+  color: black;
+}
+
+.nav-box-active {
+    background-color: #c97ad0;
+    color: black;
+}
+
+
+.navbar-toggler-right {
+    
+}
+
+.footer {
+
+}
