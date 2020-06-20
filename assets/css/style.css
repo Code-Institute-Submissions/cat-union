@@ -116,5 +116,22 @@
 }
 
 .footer {
+    background-color:black;
+    position: absolute;
+    bottom: 0;
+    text-align:center;
+    padding-bottom:10px;
+}
 
+.footer p{
+    font-size:15px;
+    color:#e5b7e9
+}
+
+.footer i{
+    color:#e5b7e9
+}
+
+.button-color{
+    background-color:#e5b7e9
 }
