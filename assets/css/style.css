@@ -131,9 +131,9 @@
   padding: 20px;
 }
 
-.subtitle{
-    font-size:30px;
-    text-align:center;
+.subtitle {
+  font-size: 30px;
+  text-align: center;
 }
 
 .cat-details {
@@ -167,6 +167,40 @@
 .donate-panel {
   min-height: 603px;
   padding-bottom: 10px;
+  background-color: #eeedac
+}
+
+.donate-details {
+  text-align: Center;
+}
+
+.circle-image{
+  position: relative;
+  top: 20px;  
+    
+  text-align: center;
+  text-decoration: none;  
+  
+}
+
+.circle-image img {
+border-width:1px;  
+  border-radius: 50%;
+}
+
+.left-circle {
+    position:relative;
+    left:50px;
+}
+
+.middle-circle{
+    position: relative;
+    top: 60px;
+}
+
+.right-circle {
+    position:relative;
+    right:50px;
 }
 
 .footer-panel {
@@ -217,7 +251,6 @@
   }
 }
 
-
 @media screen and (max-width: 1200px) {
   .slogan {
     color: black;
@@ -244,9 +277,7 @@
     bottom: 450px;
     left: 480px;
   }
-
 }
-
 
 
 @media screen and (max-width: 768px) {
@@ -276,12 +307,9 @@
     min-height: 300px;
   }
   .adopting-panel {
-     
-  min-height: 300px;
-  padding-bottom: 10px;
-  
-  
-}
+    min-height: 300px;
+    padding-bottom: 10px;
+  }
   .cat-box img {
     width: 70%;
     height: 70%;
@@ -289,6 +317,15 @@
 
 
 
+    .left-circle{
+    position: relative;
+    left: 0px;
+}
+
+  .right-circle{
+    position: relative;
+    right: 0px;
+}
 }
 
 @media screen and (max-width: 640px) {
@@ -318,24 +355,103 @@
     min-height: 300px;
   }
   .adopting-panel {
-     
-  min-height: 300px;
-  padding-bottom: 10px;
-  vertical-align:center;
-}
-
-  .cat-box img {
-    display:table-cell;
-text-align:center;
-vertical-align:middle;
-  width:100%;
+    min-height: 300px;
+    padding-bottom: 10px;
+    vertical-align: center;
   }
 
-  .subtitle{
-    font-size:15px;
-    text-align:center;
+  .cat-box img {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .subtitle {
+    font-size: 15px;
+    text-align: center;
+  }
+
+.middle-circle{
+    position: relative;
+    top: 20px;
 }
+  .left-circle{
+    position: relative;
+    left: 0px;
 }
+
+  .right-circle{
+    position: relative;
+    right: 0px;
+}
+
+ .donate-panel{
+     min-height: 600px;
+ }
+
+
+}
+
+@media screen and (max-width: 600px) {
+  .long-image {
+    max-height: 303px;
+  }
+
+  .slogan {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    bottom: 250px;
+    left: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .main-page-background {
+    background-image: url(../../assets/images/Cat-poke.png);
+    background-position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    object-fit: cover;
+    min-height: 300px;
+  }
+
+  .adopting-panel {
+    min-height: 300px;
+    padding-bottom: 10px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .subtitle {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .cat-box img {
+    display: table-cell;
+    text-align: center;
+
+    width: 100%;
+  }
+
+
+
+.middle-circle{
+    position: relative;
+    top: 20px;
+}
+ 
+ .donate-panel{
+     min-height: 1010px;
+ }
+
+}
+
 
 @media screen and (max-width: 480px) {
   .long-image {
@@ -365,23 +481,33 @@ vertical-align:middle;
   }
 
   .adopting-panel {
-     
-  min-height: 300px;
-  padding-bottom: 10px;
-  display: inline-block;
-  vertical-align:middle;
-}
+    min-height: 300px;
+    padding-bottom: 10px;
+    display: inline-block;
+    vertical-align: middle;
+  }
 
-.subtitle{
-    font-size:15px;
-    text-align:center;
-}
-
+  .subtitle {
+    font-size: 15px;
+    text-align: center;
+  }
 
   .cat-box img {
-   display:table-cell;
-text-align:center;
+    display: table-cell;
+    text-align: center;
 
-  width:100%;
+    width: 100%;
   }
+
+
+
+.middle-circle{
+    position: relative;
+    top: 20px;
+}
+ 
+ .donate-panel{
+     min-height: 1010px;
+ }
+
 }
