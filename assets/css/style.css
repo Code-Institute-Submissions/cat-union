@@ -221,7 +221,7 @@
   padding-top: 40px;
   padding-left: 10px;
   bottom: 600px;
-  left: 890px;
+  left: 840px;
 }
 
 .middle-image {
@@ -243,8 +243,8 @@
   height: 200px;
   padding-top: 40px;
   padding-left: 10px;
-  bottom: 450px;
-  left: 930px;
+  bottom: 610px;
+  left: 70px;
 }
 
 .lower-image {
@@ -266,8 +266,8 @@
   height: 200px;
   padding-top: 40px;
   padding-left: 10px;
-  bottom: 450px;
-  left: 930px;
+  bottom: 250px;
+  left: 870px;
 }
 
 .footer-panel {
@@ -351,8 +351,8 @@
     height: 200px;
     padding-top: 40px;
     padding-left: 10px;
-    bottom: 450px;
-    left: 700px;
+    bottom: 610px;
+    left: 70px;
   }
 
   .lower-statement {
@@ -363,7 +363,7 @@
     height: 200px;
     padding-top: 40px;
     padding-left: 10px;
-    bottom: 450px;
+    bottom: 270px;
     left: 700px;
   }
 }
@@ -395,12 +395,12 @@
     color: black;
     font-size: 25px;
     position: relative;
-    width: 300px;
+    width: 200px;
     height: 200px;
     padding-top: 40px;
     padding-left: 10px;
     bottom: 600px;
-    left: 500px;
+    left: 480px;
   }
 
   .middle-image {
@@ -415,15 +415,15 @@
   }
 
   .middle-statement {
-     color: black;
+    color: black;
     font-size: 25px;
     position: relative;
     width: 300px;
     height: 200px;
     padding-top: 40px;
     padding-left: 10px;
-    bottom: 450px;
-    left: 500px;
+    bottom: 610px;
+    left: 70px;
   }
 
   .lower-image {
@@ -438,15 +438,15 @@
   }
 
   .lower-statement {
-     color: black;
+    color: black;
     font-size: 25px;
     position: relative;
     width: 300px;
     height: 200px;
     padding-top: 40px;
     padding-left: 10px;
-    bottom: 450px;
-    left: 500px;
+    bottom: 250px;
+    left: 450px;
   }
 }
 
@@ -507,7 +507,7 @@
   }
 
   .upper-statement {
-     color: black;
+    color: black;
     font-size: 23px;
     position: relative;
     width: 200px;
@@ -515,7 +515,7 @@
     padding-top: 40px;
     padding-left: 10px;
     bottom: 280px;
-    left: 430px;
+    left: 380px;
   }
 
   .middle-image {
@@ -530,15 +530,15 @@
   }
 
   .middle-statement {
-     color: black;
+    color: black;
     font-size: 23px;
     position: relative;
     width: 200px;
     height: 150px;
     padding-top: 40px;
     padding-left: 10px;
-    bottom: 280px;
-    left: 430px;
+    bottom: 330px;
+    left: 50px;
   }
 
   .lower-image {
@@ -553,15 +553,15 @@
   }
 
   .lower-statement {
-     color: black;
+    color: black;
     font-size: 23px;
     position: relative;
     width: 200px;
     height: 150px;
     padding-top: 40px;
     padding-left: 10px;
-    bottom: 280px;
-    left: 430px;
+    bottom: 230px;
+    left: 410px;
   }
 }
 
@@ -639,7 +639,7 @@
   }
 
   .upper-statement {
-     color: black;
+    color: black;
     font-size: 23px;
     position: relative;
     width: 200px;
@@ -662,15 +662,15 @@
   }
 
   .middle-statement {
-     color: black;
+    color: black;
     font-size: 23px;
     position: relative;
     width: 200px;
     height: 150px;
     padding-top: 40px;
     padding-left: 10px;
-    bottom: 280px;
-    left: 370px;
+    bottom: 330px;
+    left: 30px;
   }
 
   .lower-image {
@@ -685,15 +685,15 @@
   }
 
   .lower-statement {
-     color: black;
+    color: black;
     font-size: 23px;
     position: relative;
     width: 200px;
     height: 150px;
     padding-top: 40px;
     padding-left: 10px;
-    bottom: 280px;
-    left: 370px;
+    bottom: 230px;
+    left: 260px;
   }
 }
 
@@ -764,7 +764,7 @@
   }
 
   .upper-statement {
-     color: black;
+    color: black;
     font-size: 23px;
     position: relative;
     width: 200px;
@@ -787,15 +787,15 @@
   }
 
   .middle-statement {
-     color: black;
+    color: black;
     font-size: 23px;
     position: relative;
     width: 200px;
     height: 150px;
     padding-top: 40px;
     padding-left: 10px;
-    bottom: 280px;
-    left: 260px;
+    bottom: 330px;
+    left: 30px;
   }
 
   .lower-image {
@@ -810,14 +810,14 @@
   }
 
   .lower-statement {
-     color: black;
+    color: black;
     font-size: 23px;
     position: relative;
     width: 200px;
     height: 150px;
     padding-top: 40px;
     padding-left: 10px;
-    bottom: 280px;
+    bottom: 230px;
     left: 260px;
   }
 }
@@ -889,14 +889,14 @@
   }
 
   .upper-statement {
-     color: black;
+    color: black;
     font-size: 20px;
     position: relative;
     width: 200px;
     height: 150px;
     padding-top: 40px;
     padding-left: 10px;
-    bottom: 130px;
+    bottom: 180px;
     left: 70px;
   }
 
@@ -912,14 +912,14 @@
   }
 
   .middle-statement {
-     color: black;
+    color: black;
     font-size: 20px;
     position: relative;
     width: 200px;
     height: 150px;
     padding-top: 40px;
     padding-left: 10px;
-    bottom: 130px;
+    bottom: 180px;
     left: 70px;
   }
 
@@ -935,14 +935,14 @@
   }
 
   .lower-statement {
-     color: black;
+    color: black;
     font-size: 20px;
     position: relative;
     width: 200px;
     height: 150px;
     padding-top: 40px;
     padding-left: 10px;
-    bottom: 130px;
+    bottom: 210px;
     left: 70px;
   }
 }
