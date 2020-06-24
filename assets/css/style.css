@@ -120,7 +120,7 @@
 }
 
 .adopting-panel {
-  min-height: 603px;
+  min-height: 403px;
   padding-bottom: 10px;
   display: inline-block;
 }
@@ -167,45 +167,112 @@
 .donate-panel {
   min-height: 603px;
   padding-bottom: 10px;
-  background-color: #eeedac
+  background-color: #eeedac;
 }
 
 .donate-details {
   text-align: Center;
 }
 
-.circle-image{
+.circle-image {
   position: relative;
-  top: 20px;  
-    
+  top: 20px;
+
   text-align: center;
-  text-decoration: none;  
-  
+  text-decoration: none;
 }
 
 .circle-image img {
-border-width:1px;  
+  border-width: 1px;
   border-radius: 50%;
 }
 
 .left-circle {
-    position:relative;
-    left:50px;
+  position: relative;
+  left: 50px;
 }
 
-.middle-circle{
-    position: relative;
-    top: 60px;
+.middle-circle {
+  position: relative;
+  top: 60px;
 }
 
 .right-circle {
-    position:relative;
-    right:50px;
+  position: relative;
+  right: 50px;
+}
+.upper-image {
+  background: rgb(0, 0, 0);
+  opacity: 0.6;
+  background-image: url(../../assets/images/cage-cat.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 600px;
+  padding-bottom: 20px;
+}
+
+.upper-statement {
+  color: black;
+  font-size: 30px;
+  position: relative;
+  width: 300px;
+  height: 200px;
+  padding-top: 40px;
+  padding-left: 10px;
+  bottom: 600px;
+  left: 890px;
+}
+
+.middle-image {
+  background: rgb(0, 0, 0);
+  opacity: 0.6;
+  background-image: url(../../assets/images/Man-with-kitten.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 600px;
+  padding-bottom: 20px;
+}
+
+.middle-statement {
+  color: black;
+  font-size: 30px;
+  position: relative;
+  width: 300px;
+  height: 200px;
+  padding-top: 40px;
+  padding-left: 10px;
+  bottom: 450px;
+  left: 930px;
+}
+
+.lower-image {
+  background: rgb(0, 0, 0);
+  opacity: 0.6;
+  background-image: url(../../assets/images/vet-kitten.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 600px;
+  padding-bottom: 20px;
+}
+
+.lower-statement {
+  color: black;
+  font-size: 30px;
+  position: relative;
+  width: 300px;
+  height: 200px;
+  padding-top: 40px;
+  padding-left: 10px;
+  bottom: 450px;
+  left: 930px;
 }
 
 .footer-panel {
   background-color: black;
-  position: fixed;
+  position: relative;
   bottom: 0;
   text-align: center;
   padding-bottom: 10px;
@@ -263,6 +330,42 @@ border-width:1px;
     bottom: 450px;
     left: 630px;
   }
+
+  .upper-statement {
+    color: black;
+    font-size: 30px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 600px;
+    left: 700px;
+  }
+
+  .middle-statement {
+    color: black;
+    font-size: 30px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 450px;
+    left: 700px;
+  }
+
+  .lower-statement {
+    color: black;
+    font-size: 30px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 450px;
+    left: 700px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -277,8 +380,75 @@ border-width:1px;
     bottom: 450px;
     left: 480px;
   }
-}
+  .upper-image {
+    background: rgb(0, 0, 0);
+    opacity: 0.6;
+    background-image: url(../../assets/images/cage-cat.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    padding-bottom: 20px;
+  }
 
+  .upper-statement {
+    color: black;
+    font-size: 25px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 600px;
+    left: 500px;
+  }
+
+  .middle-image {
+    background: rgb(0, 0, 0);
+    opacity: 0.6;
+    background-image: url(../../assets/images/Man-with-kitten.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    padding-bottom: 20px;
+  }
+
+  .middle-statement {
+     color: black;
+    font-size: 25px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 450px;
+    left: 500px;
+  }
+
+  .lower-image {
+    background: rgb(0, 0, 0);
+    opacity: 0.6;
+    background-image: url(../../assets/images/vet-kitten.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    padding-bottom: 20px;
+  }
+
+  .lower-statement {
+     color: black;
+    font-size: 25px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 450px;
+    left: 500px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .long-image {
@@ -315,17 +485,84 @@ border-width:1px;
     height: 70%;
   }
 
-
-
-    .left-circle{
+  .left-circle {
     position: relative;
     left: 0px;
-}
+  }
 
-  .right-circle{
+  .right-circle {
     position: relative;
     right: 0px;
-}
+  }
+
+  .upper-image {
+    background: rgb(0, 0, 0);
+    opacity: 0.6;
+    background-image: url(../../assets/images/cage-cat.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding-bottom: 20px;
+  }
+
+  .upper-statement {
+     color: black;
+    font-size: 23px;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 280px;
+    left: 430px;
+  }
+
+  .middle-image {
+    background: rgb(0, 0, 0);
+    opacity: 0.6;
+    background-image: url(../../assets/images/Man-with-kitten.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding-bottom: 20px;
+  }
+
+  .middle-statement {
+     color: black;
+    font-size: 23px;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 280px;
+    left: 430px;
+  }
+
+  .lower-image {
+    background: rgb(0, 0, 0);
+    opacity: 0.6;
+    background-image: url(../../assets/images/vet-kitten.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding-bottom: 20px;
+  }
+
+  .lower-statement {
+     color: black;
+    font-size: 23px;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 280px;
+    left: 430px;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -372,25 +609,92 @@ border-width:1px;
     text-align: center;
   }
 
-.middle-circle{
+  .middle-circle {
     position: relative;
     top: 20px;
-}
-  .left-circle{
+  }
+  .left-circle {
     position: relative;
     left: 0px;
-}
+  }
 
-  .right-circle{
+  .right-circle {
     position: relative;
     right: 0px;
-}
+  }
 
- .donate-panel{
-     min-height: 600px;
- }
+  .donate-panel {
+    min-height: 600px;
+  }
 
+  .upper-image {
+    background: rgb(0, 0, 0);
+    opacity: 0.6;
+    background-image: url(../../assets/images/cage-cat.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding-bottom: 20px;
+  }
 
+  .upper-statement {
+     color: black;
+    font-size: 23px;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 280px;
+    left: 370px;
+  }
+
+  .middle-image {
+    background: rgb(0, 0, 0);
+    opacity: 0.6;
+    background-image: url(../../assets/images/Man-with-kitten.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding-bottom: 20px;
+  }
+
+  .middle-statement {
+     color: black;
+    font-size: 23px;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 280px;
+    left: 370px;
+  }
+
+  .lower-image {
+    background: rgb(0, 0, 0);
+    opacity: 0.6;
+    background-image: url(../../assets/images/vet-kitten.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding-bottom: 20px;
+  }
+
+  .lower-statement {
+     color: black;
+    font-size: 23px;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 280px;
+    left: 370px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -439,19 +743,84 @@ border-width:1px;
     width: 100%;
   }
 
-
-
-.middle-circle{
+  .middle-circle {
     position: relative;
     top: 20px;
-}
- 
- .donate-panel{
-     min-height: 1010px;
- }
+  }
 
-}
+  .donate-panel {
+    min-height: 1010px;
+  }
 
+  .upper-image {
+    background: rgb(0, 0, 0);
+    opacity: 0.6;
+    background-image: url(../../assets/images/cage-cat.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding-bottom: 20px;
+  }
+
+  .upper-statement {
+     color: black;
+    font-size: 23px;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 280px;
+    left: 260px;
+  }
+
+  .middle-image {
+    background: rgb(0, 0, 0);
+    opacity: 0.6;
+    background-image: url(../../assets/images/Man-with-kitten.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding-bottom: 20px;
+  }
+
+  .middle-statement {
+     color: black;
+    font-size: 23px;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 280px;
+    left: 260px;
+  }
+
+  .lower-image {
+    background: rgb(0, 0, 0);
+    opacity: 0.6;
+    background-image: url(../../assets/images/vet-kitten.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding-bottom: 20px;
+  }
+
+  .lower-statement {
+     color: black;
+    font-size: 23px;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 280px;
+    left: 260px;
+  }
+}
 
 @media screen and (max-width: 480px) {
   .long-image {
@@ -499,15 +868,81 @@ border-width:1px;
     width: 100%;
   }
 
-
-
-.middle-circle{
+  .middle-circle {
     position: relative;
     top: 20px;
-}
- 
- .donate-panel{
-     min-height: 1010px;
- }
+  }
 
+  .donate-panel {
+    min-height: 1010px;
+  }
+
+  .upper-image {
+    background: rgb(0, 0, 0);
+    opacity: 0.6;
+    background-image: url(../../assets/images/cage-cat.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding-bottom: 20px;
+  }
+
+  .upper-statement {
+     color: black;
+    font-size: 20px;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 130px;
+    left: 70px;
+  }
+
+  .middle-image {
+    background: rgb(0, 0, 0);
+    opacity: 0.6;
+    background-image: url(../../assets/images/Man-with-kitten.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding-bottom: 20px;
+  }
+
+  .middle-statement {
+     color: black;
+    font-size: 20px;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 130px;
+    left: 70px;
+  }
+
+  .lower-image {
+    background: rgb(0, 0, 0);
+    opacity: 0.6;
+    background-image: url(../../assets/images/vet-kitten.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding-bottom: 20px;
+  }
+
+  .lower-statement {
+     color: black;
+    font-size: 20px;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 130px;
+    left: 70px;
+  }
 }
