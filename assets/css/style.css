@@ -270,6 +270,17 @@
   left: 870px;
 }
 
+.support-page-background {
+  background-image: url(../../assets/images/kitten-group.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 603px;
+  padding-bottom: 10px;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.8;
+}
+
 .advice-page-background {
   background-image: url(../../assets/images/cat-fuss.png);
   background-position: center;
@@ -278,22 +289,104 @@
   min-height: 603px;
   padding-bottom: 10px;
   background-color: rgb(0, 0, 0);
-  opacity:0.8;
+  opacity: 0.8;
 }
 
+.fundraising-background {
+  background-image: url(../../assets/images/kitty-flower.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 603px;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.8;
+}
+.fundraising-title {
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  position: absolute;
+  top: 0px;
+  left: 40%;
+}
+.fundraising-info {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  position: absolute;
+  top: 25px;
+}
 
+.volunteer-title {
+  font-size: 25px;
+  color: white;
+  text-align: center;
 
-.video-box{
-    padding:50px;
+  position: absolute;
+  top: 0px;
+  left: 40%;
+}
+.volunteer-info {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 25px;
+}
+
+.volunteer-background {
+  background-image: url(../../assets/images/affectionate-cat.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 603px;
+}
+.sponsor-box {
+  position: relative;
+  padding-bottom: 10px;
+  border: 0px;
+  margin-left: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.sponsor-details {
+  float: right;
+  width: 253px;
+  text-align: center;
+}
+
+.sponsor-details button {
+  float: right;
+}
+
+.form-box {
+  background-color: black;
+  opacity: 0.3;
+  position: relative;
+  bottom: 410px;
+  left: 20%;
+  color: white;
+  border: 10px;
+  height: 360px;
+  width: 500px;
+}
+
+.form-box textarea {
+  resize: none;
+}
+
+.video-box {
+  padding: 50px;
 }
 
 .video-title {
   text-align: center;
   font-size: 20px;
-  position:relative;
-  top:40px;
+  position: relative;
+  top: 40px;
 }
-
 
 .footer-panel {
   background-color: black;
@@ -329,6 +422,11 @@
   font-size: 15px;
 }
 
+.support-title {
+  font-size: 50px;
+  text-align: Center;
+  padding: 20px;
+}
 
 @media screen and (max-width: 2560px) {
   .slogan {
@@ -343,6 +441,18 @@
     left: 630px;
   }
 
+  .support-slogan {
+    color: black;
+    font-size: 30px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 450px;
+    left: 430px;
+  }
+
   .advice-slogan {
     color: black;
     font-size: 30px;
@@ -355,738 +465,926 @@
     left: 790px;
   }
 
+  @media screen and (max-width: 1200px) {
+    .slogan {
+      color: black;
+      font-size: 30px;
+      position: relative;
+      width: 300px;
+      height: 200px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 450px;
+      left: 630px;
+    }
 
-
-@media screen and (max-width: 1200px) {
-
-
-  .slogan {
-    color: black;
-    font-size: 30px;
-    position: relative;
-    width: 300px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 450px;
-    left: 630px;
-  }
-
-   .advice-slogan {
-    color: black;
-    font-size: 30px;
-    position: relative;
-    width: 300px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 600px;
-    left: 530px;
-  }
-
-  .upper-statement {
-    color: black;
-    font-size: 30px;
-    position: relative;
-    width: 300px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 600px;
-    left: 700px;
-  }
-
-  .middle-statement {
-    color: black;
-    font-size: 30px;
-    position: relative;
-    width: 300px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 610px;
-    left: 70px;
-  }
-
-  .lower-statement {
-    color: black;
-    font-size: 30px;
-    position: relative;
-    width: 300px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 270px;
-    left: 700px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .slogan {
-    color: black;
-    font-size: 30px;
-    position: relative;
-    width: 300px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 450px;
-    left: 480px;
-  }
-
-   .advice-slogan {
-    color: black;
-    font-size: 30px;
-    position: relative;
-    width: 300px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 600px;
-    left: 380px;
-  }
-  .upper-image {
-    background: rgb(0, 0, 0);
-    opacity: 0.6;
-    background-image: url(../../assets/images/cage-cat.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 600px;
-    padding-bottom: 20px;
-  }
-
-  .upper-statement {
-    color: black;
-    font-size: 25px;
-    position: relative;
-    width: 200px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 600px;
-    left: 480px;
-  }
-
-  .middle-image {
-    background: rgb(0, 0, 0);
-    opacity: 0.6;
-    background-image: url(../../assets/images/Man-with-kitten.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 600px;
-    padding-bottom: 20px;
-  }
-
-  .middle-statement {
-    color: black;
-    font-size: 25px;
-    position: relative;
-    width: 300px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 610px;
-    left: 70px;
-  }
-
-  .lower-image {
-    background: rgb(0, 0, 0);
-    opacity: 0.6;
-    background-image: url(../../assets/images/vet-kitten.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 600px;
-    padding-bottom: 20px;
-  }
-
-  .lower-statement {
-    color: black;
-    font-size: 25px;
-    position: relative;
-    width: 300px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 250px;
-    left: 450px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .long-image {
-    max-height: 303px;
-  }
-
-  .slogan {
-    color: black;
-    font-size: 25px;
-    position: relative;
-    bottom: 250px;
-    left: 250px;
-    text-align: center;
-    padding-top: 10px;
-    padding-left: 10px;
-  }
-
-  .advice-slogan {
-    color: black;
-    font-size: 25px;
-    position: relative;
-    bottom: 300px;
-    left: 200px;
-    text-align: center;
-    padding-top: 10px;
-    padding-left: 10px;
-  }
-
-  .main-page-background {
-    background-image: url(../../assets/images/Cat-poke.png);
-    background-position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 10px;
-    padding-right: 0px;
-    object-fit: cover;
-    min-height: 300px;
-  }
-  .adopting-panel {
-    min-height: 300px;
-    padding-bottom: 10px;
-  }
-  .cat-box img {
-    width: 70%;
-    height: 70%;
-  }
-
-  .left-circle {
-    position: relative;
-    left: 0px;
-  }
-
-  .right-circle {
-    position: relative;
-    right: 0px;
-  }
-
-  .upper-image {
-    background: rgb(0, 0, 0);
-    opacity: 0.6;
-    background-image: url(../../assets/images/cage-cat.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 300px;
-    padding-bottom: 20px;
-  }
-
-  .upper-statement {
-    color: black;
-    font-size: 23px;
-    position: relative;
-    width: 200px;
-    height: 150px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 280px;
-    left: 380px;
-  }
-
-  .middle-image {
-    background: rgb(0, 0, 0);
-    opacity: 0.6;
-    background-image: url(../../assets/images/Man-with-kitten.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 300px;
-    padding-bottom: 20px;
-  }
-
-  .middle-statement {
-    color: black;
-    font-size: 23px;
-    position: relative;
-    width: 200px;
-    height: 150px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 330px;
-    left: 50px;
-  }
-
-  .lower-image {
-    background: rgb(0, 0, 0);
-    opacity: 0.6;
-    background-image: url(../../assets/images/vet-kitten.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 300px;
-    padding-bottom: 20px;
-  }
-
-  .lower-statement {
-    color: black;
-    font-size: 23px;
-    position: relative;
-    width: 200px;
-    height: 150px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 230px;
-    left: 410px;
-  }
-
-  .advice-page-background {
-    background-image: url(../../assets/images/cat-fuss.png);
-    background-position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 10px;
-    padding-right: 0px;
-    object-fit: cover;
-    min-height: 300px;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .long-image {
-    max-height: 303px;
-  }
-
-  .slogan {
-    color: black;
-    font-size: 20px;
-    position: relative;
-    bottom: 250px;
-    left: 70px;
-    text-align: center;
-    padding-top: 10px;
-    padding-left: 10px;
-  }
+    .support-slogan {
+      color: black;
+      font-size: 30px;
+      position: relative;
+      width: 300px;
+      height: 200px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 450px;
+      left: 630px;
+    }
 
     .advice-slogan {
-    color: black;
-    font-size: 20px;
-    position: relative;
-    bottom: 300px;
-    left: 160px;
-    text-align: center;
-    padding-top: 10px;
-    padding-left: 10px;
+      color: black;
+      font-size: 30px;
+      position: relative;
+      width: 300px;
+      height: 200px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 600px;
+      left: 530px;
+    }
+
+    .upper-statement {
+      color: black;
+      font-size: 30px;
+      position: relative;
+      width: 300px;
+      height: 200px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 600px;
+      left: 700px;
+    }
+
+    .middle-statement {
+      color: black;
+      font-size: 30px;
+      position: relative;
+      width: 300px;
+      height: 200px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 610px;
+      left: 70px;
+    }
+
+    .lower-statement {
+      color: black;
+      font-size: 30px;
+      position: relative;
+      width: 300px;
+      height: 200px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 270px;
+      left: 700px;
+    }
+
+    .sponsor-box {
+      position: relative;
+      padding-bottom: 10px;
+      border: 0px;
+      margin-left: 0px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .sponsor-details {
+      float: right;
+      width: 200px;
+      text-align: center;
+    }
+
+    .fundraising-background {
+      min-height: 303px;
+    }
+
+    .volunteer-background {
+      min-height: 303px;
+    }
   }
 
-  .main-page-background {
-    background-image: url(../../assets/images/Cat-poke.png);
-    background-position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 10px;
-    padding-right: 0px;
-    object-fit: cover;
-    min-height: 300px;
-  }
-  .adopting-panel {
-    min-height: 300px;
-    padding-bottom: 10px;
-    vertical-align: center;
+  @media screen and (max-width: 1024px) {
+    .slogan {
+      color: black;
+      font-size: 30px;
+      position: relative;
+      width: 300px;
+      height: 200px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 450px;
+      left: 450px;
+    }
+
+    .support-slogan {
+      color: black;
+      font-size: 30px;
+      position: relative;
+      width: 300px;
+      height: 200px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 450px;
+      left: 480px;
+    }
+
+    .advice-slogan {
+      color: black;
+      font-size: 30px;
+      position: relative;
+      width: 300px;
+      height: 200px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 600px;
+      left: 380px;
+    }
+    .upper-image {
+      background: rgb(0, 0, 0);
+      opacity: 0.6;
+      background-image: url(../../assets/images/cage-cat.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 600px;
+      padding-bottom: 20px;
+    }
+
+    .upper-statement {
+      color: black;
+      font-size: 25px;
+      position: relative;
+      width: 200px;
+      height: 200px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 600px;
+      left: 480px;
+    }
+
+    .middle-image {
+      background: rgb(0, 0, 0);
+      opacity: 0.6;
+      background-image: url(../../assets/images/Man-with-kitten.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 600px;
+      padding-bottom: 20px;
+    }
+
+    .middle-statement {
+      color: black;
+      font-size: 25px;
+      position: relative;
+      width: 300px;
+      height: 200px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 610px;
+      left: 70px;
+    }
+
+    .lower-image {
+      background: rgb(0, 0, 0);
+      opacity: 0.6;
+      background-image: url(../../assets/images/vet-kitten.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 600px;
+      padding-bottom: 20px;
+    }
+
+    .lower-statement {
+      color: black;
+      font-size: 25px;
+      position: relative;
+      width: 300px;
+      height: 200px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 250px;
+      left: 450px;
+    }
+
+    .sponsor-box {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .sponsor-details {
+      text-align: justify;
+      width: 253px;
+      position:relative;
+      right:110px;
+    }
+
+    .fundraising-background {
+      min-height: 303px;
+    }
+
+    .volunteer-background {
+      min-height: 303px;
+    }
   }
 
-  .cat-box img {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    width: 100%;
+  @media screen and (max-width: 768px) {
+    .long-image {
+      max-height: 303px;
+    }
+
+    .slogan {
+      color: black;
+      font-size: 25px;
+      position: relative;
+      bottom: 250px;
+      left: 250px;
+      text-align: center;
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+
+    .advice-slogan {
+      color: black;
+      font-size: 25px;
+      position: relative;
+      bottom: 300px;
+      left: 200px;
+      text-align: center;
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+
+    .main-page-background {
+      background-image: url(../../assets/images/Cat-poke.png);
+      background-position: absolute;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-bottom: 10px;
+      padding-right: 0px;
+      object-fit: cover;
+      min-height: 300px;
+    }
+
+    .support-page-background {
+      background-image: url(../../assets/images/kitten-group.png);
+      background-position: absolute;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-bottom: 10px;
+      padding-right: 0px;
+      object-fit: cover;
+      min-height: 300px;
+    }
+
+    .adopting-panel {
+      min-height: 300px;
+      padding-bottom: 10px;
+    }
+    .cat-box img {
+      width: 70%;
+      height: 70%;
+    }
+
+    .left-circle {
+      position: relative;
+      left: 0px;
+    }
+
+    .right-circle {
+      position: relative;
+      right: 0px;
+    }
+
+    .upper-image {
+      background: rgb(0, 0, 0);
+      opacity: 0.6;
+      background-image: url(../../assets/images/cage-cat.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 300px;
+      padding-bottom: 20px;
+    }
+
+    .upper-statement {
+      color: black;
+      font-size: 23px;
+      position: relative;
+      width: 200px;
+      height: 150px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 280px;
+      left: 380px;
+    }
+
+    .middle-image {
+      background: rgb(0, 0, 0);
+      opacity: 0.6;
+      background-image: url(../../assets/images/Man-with-kitten.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 300px;
+      padding-bottom: 20px;
+    }
+
+    .middle-statement {
+      color: black;
+      font-size: 23px;
+      position: relative;
+      width: 200px;
+      height: 150px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 330px;
+      left: 50px;
+    }
+
+    .lower-image {
+      background: rgb(0, 0, 0);
+      opacity: 0.6;
+      background-image: url(../../assets/images/vet-kitten.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 300px;
+      padding-bottom: 20px;
+    }
+
+    .lower-statement {
+      color: black;
+      font-size: 23px;
+      position: relative;
+      width: 200px;
+      height: 150px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 230px;
+      left: 410px;
+    }
+
+    .sponsor-box {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .sponsor-details {
+      text-align: justify;
+      width: 253px;
+      position:relative;
+      right:50px;
+    }
+    .fundraising-background {
+      min-height: 303px;
+    }
+
+    .volunteer-background {
+      min-height: 303px;
+    }
+
+    .advice-page-background {
+      background-image: url(../../assets/images/cat-fuss.png);
+      background-position: absolute;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-bottom: 10px;
+      padding-right: 0px;
+      object-fit: cover;
+      min-height: 300px;
+    }
   }
 
-  .subtitle {
-    font-size: 15px;
-    text-align: center;
+  @media screen and (max-width: 640px) {
+    .long-image {
+      max-height: 303px;
+    }
+
+    .slogan {
+      color: black;
+      font-size: 20px;
+      position: relative;
+      bottom: 250px;
+      left: 70px;
+      text-align: center;
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+
+    .advice-slogan {
+      color: black;
+      font-size: 20px;
+      position: relative;
+      bottom: 300px;
+      left: 160px;
+      text-align: center;
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+
+    .main-page-background {
+      background-image: url(../../assets/images/Cat-poke.png);
+      background-position: absolute;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-bottom: 10px;
+      padding-right: 0px;
+      object-fit: cover;
+      min-height: 300px;
+    }
+
+    .support-page-background {
+      background-image: url(../../assets/images/kitten-group.png);
+      background-position: absolute;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-bottom: 10px;
+      padding-right: 0px;
+      object-fit: cover;
+      min-height: 300px;
+    }
+
+    .adopting-panel {
+      min-height: 300px;
+      padding-bottom: 10px;
+      vertical-align: center;
+    }
+
+    .cat-box img {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+      width: 100%;
+    }
+
+    .subtitle {
+      font-size: 15px;
+      text-align: center;
+    }
+
+    .middle-circle {
+      position: relative;
+      top: 20px;
+    }
+    .left-circle {
+      position: relative;
+      left: 0px;
+    }
+
+    .right-circle {
+      position: relative;
+      right: 0px;
+    }
+
+    .donate-panel {
+      min-height: 600px;
+    }
+
+    .upper-image {
+      background: rgb(0, 0, 0);
+      opacity: 0.6;
+      background-image: url(../../assets/images/cage-cat.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 300px;
+      padding-bottom: 20px;
+    }
+
+    .upper-statement {
+      color: black;
+      font-size: 23px;
+      position: relative;
+      width: 200px;
+      height: 150px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 280px;
+      left: 370px;
+    }
+
+    .middle-image {
+      background: rgb(0, 0, 0);
+      opacity: 0.6;
+      background-image: url(../../assets/images/Man-with-kitten.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 300px;
+      padding-bottom: 20px;
+    }
+
+    .middle-statement {
+      color: black;
+      font-size: 23px;
+      position: relative;
+      width: 200px;
+      height: 150px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 330px;
+      left: 30px;
+    }
+
+    .lower-image {
+      background: rgb(0, 0, 0);
+      opacity: 0.6;
+      background-image: url(../../assets/images/vet-kitten.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 300px;
+      padding-bottom: 20px;
+    }
+
+    .lower-statement {
+      color: black;
+      font-size: 23px;
+      position: relative;
+      width: 200px;
+      height: 150px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 230px;
+      left: 260px;
+    }
+
+    .sponsor-box {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .sponsor-details {
+      text-align: justify;
+      width: 253px;
+      position:relative;
+      right: 0px;
+    }
+
+    .fundraising-background {
+      min-height: 303px;
+    }
+
+    .volunteer-background {
+      min-height: 303px;
+    }
+
+    .advice-page-background {
+      background-image: url(../../assets/images/cat-fuss.png);
+      background-position: absolute;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-bottom: 10px;
+      padding-right: 0px;
+      object-fit: cover;
+      min-height: 300px;
+      background-position-x: 20%;
+    }
   }
 
-  .middle-circle {
-    position: relative;
-    top: 20px;
-  }
-  .left-circle {
-    position: relative;
-    left: 0px;
-  }
+  @media screen and (max-width: 600px) {
+    .long-image {
+      max-height: 303px;
+    }
 
-  .right-circle {
-    position: relative;
-    right: 0px;
-  }
+    .slogan {
+      color: black;
+      font-size: 20px;
+      position: relative;
+      bottom: 250px;
+      left: 10px;
+      text-align: center;
+      padding-top: 10px;
+      padding-left: 10px;
+    }
 
-  .donate-panel {
-    min-height: 600px;
-  }
+    .main-page-background {
+      background-image: url(../../assets/images/Cat-poke.png);
+      background-position: absolute;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-bottom: 10px;
+      padding-right: 0px;
+      object-fit: cover;
+      min-height: 300px;
+    }
 
-  .upper-image {
-    background: rgb(0, 0, 0);
-    opacity: 0.6;
-    background-image: url(../../assets/images/cage-cat.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 300px;
-    padding-bottom: 20px;
-  }
+    .support-page-background {
+      background-image: url(../../assets/images/kitten-group.png);
+      background-position: absolute;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-bottom: 10px;
+      padding-right: 0px;
+      object-fit: cover;
+      min-height: 300px;
+    }
 
-  .upper-statement {
-    color: black;
-    font-size: 23px;
-    position: relative;
-    width: 200px;
-    height: 150px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 280px;
-    left: 370px;
-  }
+    .advice-page-background {
+      background-image: url(../../assets/images/cat-fuss.png);
+      background-position: absolute;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-bottom: 10px;
+      padding-right: 0px;
+      object-fit: cover;
+      min-height: 300px;
+    }
 
-  .middle-image {
-    background: rgb(0, 0, 0);
-    opacity: 0.6;
-    background-image: url(../../assets/images/Man-with-kitten.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 300px;
-    padding-bottom: 20px;
-  }
+    .adopting-panel {
+      min-height: 300px;
+      padding-bottom: 10px;
+      display: inline-block;
+      vertical-align: middle;
+    }
 
-  .middle-statement {
-    color: black;
-    font-size: 23px;
-    position: relative;
-    width: 200px;
-    height: 150px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 330px;
-    left: 30px;
-  }
+    .subtitle {
+      font-size: 15px;
+      text-align: center;
+    }
 
-  .lower-image {
-    background: rgb(0, 0, 0);
-    opacity: 0.6;
-    background-image: url(../../assets/images/vet-kitten.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 300px;
-    padding-bottom: 20px;
-  }
+    .cat-box img {
+      display: table-cell;
+      text-align: center;
 
-  .lower-statement {
-    color: black;
-    font-size: 23px;
-    position: relative;
-    width: 200px;
-    height: 150px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 230px;
-    left: 260px;
-  }
+      width: 100%;
+    }
 
-  .advice-page-background {
-    background-image: url(../../assets/images/cat-fuss.png);
-    background-position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 10px;
-    padding-right: 0px;
-    object-fit: cover;
-    min-height: 300px;
-    background-position-x: 20%;
-  }
-}
+    .middle-circle {
+      position: relative;
+      top: 20px;
+    }
 
-@media screen and (max-width: 600px) {
-  .long-image {
-    max-height: 303px;
-  }
+    .donate-panel {
+      min-height: 1010px;
+    }
 
-  .slogan {
-    color: black;
-    font-size: 20px;
-    position: relative;
-    bottom: 250px;
-    left: 10px;
-    text-align: center;
-    padding-top: 10px;
-    padding-left: 10px;
-  }
+    .upper-image {
+      background: rgb(0, 0, 0);
+      opacity: 0.6;
+      background-image: url(../../assets/images/cage-cat.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 300px;
+      padding-bottom: 20px;
+    }
 
-  .main-page-background {
-    background-image: url(../../assets/images/Cat-poke.png);
-    background-position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 10px;
-    padding-right: 0px;
-    object-fit: cover;
-    min-height: 300px;
-  }
+    .upper-statement {
+      color: black;
+      font-size: 23px;
+      position: relative;
+      width: 200px;
+      height: 150px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 280px;
+      left: 260px;
+    }
 
-  .advice-page-background {
-    background-image: url(../../assets/images/cat-fuss.png);
-    background-position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 10px;
-    padding-right: 0px;
-    object-fit: cover;
-    min-height: 300px;
-  }
+    .middle-image {
+      background: rgb(0, 0, 0);
+      opacity: 0.6;
+      background-image: url(../../assets/images/Man-with-kitten.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 300px;
+      padding-bottom: 20px;
+    }
 
-  .adopting-panel {
-    min-height: 300px;
-    padding-bottom: 10px;
-    display: inline-block;
-    vertical-align: middle;
-  }
+    .middle-statement {
+      color: black;
+      font-size: 23px;
+      position: relative;
+      width: 200px;
+      height: 150px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 330px;
+      left: 30px;
+    }
 
-  .subtitle {
-    font-size: 15px;
-    text-align: center;
-  }
+    .lower-image {
+      background: rgb(0, 0, 0);
+      opacity: 0.6;
+      background-image: url(../../assets/images/vet-kitten.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 300px;
+      padding-bottom: 20px;
+    }
 
-  .cat-box img {
-    display: table-cell;
-    text-align: center;
+    .lower-statement {
+      color: black;
+      font-size: 23px;
+      position: relative;
+      width: 200px;
+      height: 150px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 230px;
+      left: 260px;
+    }
 
-    width: 100%;
-  }
+    .sponsor-box img {
+      display: block;
+      margin: 0 auto;
+    }
 
-  .middle-circle {
-    position: relative;
-    top: 20px;
-  }
+    .sponsor-details {
+      text-align: justify;
+      width: 253px;
+      position:relative;
+      right:30px;
+    }
+    .fundraising-background {
+      min-height: 303px;
+    }
 
-  .donate-panel {
-    min-height: 1010px;
-  }
-
-  .upper-image {
-    background: rgb(0, 0, 0);
-    opacity: 0.6;
-    background-image: url(../../assets/images/cage-cat.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 300px;
-    padding-bottom: 20px;
+    .volunteer-background {
+      min-height: 303px;
+    }
   }
 
-  .upper-statement {
-    color: black;
-    font-size: 23px;
-    position: relative;
-    width: 200px;
-    height: 150px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 280px;
-    left: 260px;
-  }
+  @media screen and (max-width: 480px) {
+    .long-image {
+      max-height: 303px;
+    }
 
-  .middle-image {
-    background: rgb(0, 0, 0);
-    opacity: 0.6;
-    background-image: url(../../assets/images/Man-with-kitten.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 300px;
-    padding-bottom: 20px;
-  }
+    .slogan {
+      color: black;
+      font-size: 20px;
+      position: relative;
+      bottom: 250px;
+      left: 10px;
+      text-align: center;
+      padding-top: 10px;
+      padding-left: 10px;
+    }
 
-  .middle-statement {
-    color: black;
-    font-size: 23px;
-    position: relative;
-    width: 200px;
-    height: 150px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 330px;
-    left: 30px;
-  }
+    .advice-slogan {
+      color: black;
+      font-size: 20px;
+      position: relative;
+      bottom: 300px;
+      left: 10px;
+      text-align: center;
+      padding-top: 10px;
+      padding-left: 10px;
+    }
 
-  .lower-image {
-    background: rgb(0, 0, 0);
-    opacity: 0.6;
-    background-image: url(../../assets/images/vet-kitten.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 300px;
-    padding-bottom: 20px;
-  }
+    .main-page-background {
+      background-image: url(../../assets/images/Cat-poke.png);
+      background-position: absolute;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-bottom: 10px;
+      padding-right: 0px;
+      object-fit: cover;
+      min-height: 300px;
+    }
 
-  .lower-statement {
-    color: black;
-    font-size: 23px;
-    position: relative;
-    width: 200px;
-    height: 150px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 230px;
-    left: 260px;
-  }
-}
+    .support-page-background {
+      background-image: url(../../assets/images/kitten-group.png);
+      background-position: absolute;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-bottom: 10px;
+      padding-right: 0px;
+      object-fit: cover;
+      min-height: 300px;
+    }
 
-@media screen and (max-width: 480px) {
-  .long-image {
-    max-height: 303px;
-  }
+    .advice-page-background {
+      background-image: url(../../assets/images/cat-fuss.png);
+      background-position: absolute;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-bottom: 10px;
+      padding-right: 0px;
+      object-fit: cover;
+      min-height: 300px;
+      opacity: 0.6;
+    }
 
-  .slogan {
-    color: black;
-    font-size: 20px;
-    position: relative;
-    bottom: 250px;
-    left: 10px;
-    text-align: center;
-    padding-top: 10px;
-    padding-left: 10px;
-  }
+    .adopting-panel {
+      min-height: 300px;
+      padding-bottom: 10px;
+      display: inline-block;
+      vertical-align: middle;
+    }
 
-  .advice-slogan {
-    color: black;
-    font-size: 20px;
-    position: relative;
-    bottom: 300px;
-    left: 10px;
-    text-align: center;
-    padding-top: 10px;
-    padding-left: 10px;
-  }
+    .subtitle {
+      font-size: 15px;
+      text-align: center;
+    }
 
-  .main-page-background {
-    background-image: url(../../assets/images/Cat-poke.png);
-    background-position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 10px;
-    padding-right: 0px;
-    object-fit: cover;
-    min-height: 300px;
-  }
+    .cat-box img {
+      display: table-cell;
+      text-align: center;
 
-  .advice-page-background {
-    background-image: url(../../assets/images/cat-fuss.png);
-    background-position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 10px;
-    padding-right: 0px;
-    object-fit: cover;
-    min-height: 300px;
-    opacity:0.6;
-  }
+      width: 100%;
+    }
 
-  .adopting-panel {
-    min-height: 300px;
-    padding-bottom: 10px;
-    display: inline-block;
-    vertical-align: middle;
-  }
+    .middle-circle {
+      position: relative;
+      top: 20px;
+    }
 
-  .subtitle {
-    font-size: 15px;
-    text-align: center;
-  }
+    .donate-panel {
+      min-height: 1010px;
+    }
 
-  .cat-box img {
-    display: table-cell;
-    text-align: center;
+    .upper-image {
+      background: rgb(0, 0, 0);
+      opacity: 0.6;
+      background-image: url(../../assets/images/cage-cat.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 300px;
+      padding-bottom: 20px;
+    }
 
-    width: 100%;
-  }
+    .upper-statement {
+      color: black;
+      font-size: 20px;
+      position: relative;
+      width: 200px;
+      height: 150px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 180px;
+      left: 70px;
+    }
 
-  .middle-circle {
-    position: relative;
-    top: 20px;
-  }
+    .middle-image {
+      background: rgb(0, 0, 0);
+      opacity: 0.6;
+      background-image: url(../../assets/images/Man-with-kitten.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 300px;
+      padding-bottom: 20px;
+    }
 
-  .donate-panel {
-    min-height: 1010px;
-  }
+    .middle-statement {
+      color: black;
+      font-size: 20px;
+      position: relative;
+      width: 200px;
+      height: 150px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 180px;
+      left: 70px;
+    }
 
-  .upper-image {
-    background: rgb(0, 0, 0);
-    opacity: 0.6;
-    background-image: url(../../assets/images/cage-cat.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 300px;
-    padding-bottom: 20px;
-  }
+    .lower-image {
+      background: rgb(0, 0, 0);
+      opacity: 0.6;
+      background-image: url(../../assets/images/vet-kitten.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 300px;
+      padding-bottom: 20px;
+    }
 
-  .upper-statement {
-    color: black;
-    font-size: 20px;
-    position: relative;
-    width: 200px;
-    height: 150px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 180px;
-    left: 70px;
-  }
+    .lower-statement {
+      color: black;
+      font-size: 20px;
+      position: relative;
+      width: 200px;
+      height: 150px;
+      padding-top: 40px;
+      padding-left: 10px;
+      bottom: 210px;
+      left: 70px;
+    }
 
-  .middle-image {
-    background: rgb(0, 0, 0);
-    opacity: 0.6;
-    background-image: url(../../assets/images/Man-with-kitten.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 300px;
-    padding-bottom: 20px;
-  }
+    .sponsor-box {
+      display: block;
+      margin: 0 auto;
+    }
 
-  .middle-statement {
-    color: black;
-    font-size: 20px;
-    position: relative;
-    width: 200px;
-    height: 150px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 180px;
-    left: 70px;
-  }
+    .sponsor-details {
+      text-align: justify;
+      width: 253px;
+      position: relative;
+      right:20px;
+    }
 
-  .lower-image {
-    background: rgb(0, 0, 0);
-    opacity: 0.6;
-    background-image: url(../../assets/images/vet-kitten.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 300px;
-    padding-bottom: 20px;
-  }
+    .fundraising-background {
+      min-height: 303px;
+    }
 
-  .lower-statement {
-    color: black;
-    font-size: 20px;
-    position: relative;
-    width: 200px;
-    height: 150px;
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 210px;
-    left: 70px;
+    .volunteer-background {
+      min-height: 303px;
+    }
   }
-}
