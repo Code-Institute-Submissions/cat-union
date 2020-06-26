@@ -341,24 +341,36 @@
   background-repeat: no-repeat;
   min-height: 603px;
 }
-.sponsor-box {
-  position: relative;
-  padding-bottom: 10px;
-  border: 0px;
-  margin-left: 0px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+
+.sponsor-panel {
+    padding-bottom:30px;
+
+    max-width:1539px; 
+    
+    
 }
 
-.sponsor-details {
-  float: right;
-  width: 253px;
-  text-align: center;
-}
+
+    .sponsor-details {
+      text-align: justify;
+      min-width: 253px;
+      padding-top:10px;
+      
+    }
 
 .sponsor-details button {
   float: right;
+  
+}
+
+.sponsor-box {
+    padding-top:10px;
+}
+
+.sponsor-panel img{
+    padding-top:10px;
+     
+    
 }
 
 .form-box {
@@ -465,6 +477,12 @@
     left: 790px;
   }
 
+  .sponsor-details {
+      text-align: justify;
+      min-width: 253px;
+      float:right;
+    }
+
   @media screen and (max-width: 1200px) {
     .slogan {
       color: black;
@@ -538,20 +556,10 @@
       left: 700px;
     }
 
-    .sponsor-box {
-      position: relative;
-      padding-bottom: 10px;
-      border: 0px;
-      margin-left: 0px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-    }
-
-    .sponsor-details {
-      float: right;
-      width: 200px;
-      text-align: center;
+     .sponsor-details {
+      text-align: justify;
+      min-width: 253px;
+      float: ;
     }
 
     .fundraising-background {
@@ -561,6 +569,13 @@
     .volunteer-background {
       min-height: 303px;
     }
+
+.sponsor-details {
+      text-align: justify;
+      min-width: 253px;
+      float:right;
+    }
+
   }
 
   @media screen and (max-width: 1024px) {
@@ -668,16 +683,21 @@
       left: 450px;
     }
 
-    .sponsor-box {
-      display: block;
-      margin: 0 auto;
-    }
+     .sponsor-panel img{
+    padding-top:10px;
+    margin: auto;    
+    display: block;
+}   
 
     .sponsor-details {
-      text-align: justify;
-      width: 253px;
-      position:relative;
-      right:110px;
+        position:relative;
+        right:150px;
+        
+    }
+
+    .sponsor-details p{
+         font-size:25px;
+         width: 330px;   
     }
 
     .fundraising-background {
@@ -687,6 +707,10 @@
     .volunteer-background {
       min-height: 303px;
     }
+
+
+
+
   }
 
   @media screen and (max-width: 768px) {
@@ -826,17 +850,22 @@
       left: 410px;
     }
 
-    .sponsor-box {
-      display: block;
-      margin: 0 auto;
-    }
+    .sponsor-panel img{
+    padding-top:10px;
+    margin: auto;    
+    display: block;
+}   
 
     .sponsor-details {
-      text-align: justify;
-      width: 253px;
-      position:relative;
-      right:50px;
+        position:relative;
+        right:63px;
     }
+  
+   .sponsor-details p{
+         font-size:20px;
+         width: 253px;   
+    }
+
     .fundraising-background {
       min-height: 303px;
     }
@@ -1011,17 +1040,19 @@
       left: 260px;
     }
 
-    .sponsor-box {
-      display: block;
-      margin: 0 auto;
+   .sponsor-details {
+        position:relative;
+        right:0px;
+    }
+    
+     .sponsor-details p{
+         font-size:16px;
+         width: 253px;   
+         position:relative;
+         left:30px;
     }
 
-    .sponsor-details {
-      text-align: justify;
-      width: 253px;
-      position:relative;
-      right: 0px;
-    }
+   
 
     .fundraising-background {
       min-height: 303px;
@@ -1190,17 +1221,19 @@
       left: 260px;
     }
 
-    .sponsor-box img {
-      display: block;
-      margin: 0 auto;
-    }
+    .sponsor-panel img{
+    padding-top:10px;
+    margin: auto;    
+    display: block;
+}
 
-    .sponsor-details {
-      text-align: justify;
-      width: 253px;
-      position:relative;
-      right:30px;
+ .sponsor-details p{
+         font-size:16px;
+         width: 253px;   
+         position:relative;
+         left:50px;
     }
+  
     .fundraising-background {
       min-height: 303px;
     }
@@ -1368,17 +1401,12 @@
       left: 70px;
     }
 
-    .sponsor-box {
-      display: block;
-      margin: 0 auto;
-    }
+    .sponsor-panel img{
+    padding-top:10px;
+    margin: auto;    
+    display: block;
+}   
 
-    .sponsor-details {
-      text-align: justify;
-      width: 253px;
-      position: relative;
-      right:20px;
-    }
 
     .fundraising-background {
       min-height: 303px;
@@ -1388,3 +1416,20 @@
       min-height: 303px;
     }
   }
+@media screen and (max-width: 380px) {
+.sponsor-details p{
+         font-size:16px;
+         width: 253px;   
+         position:relative;
+         left:30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+.sponsor-details p{
+         font-size:16px;
+         width: 253px;   
+         position:relative;
+         left:0px;
+    }
+}
