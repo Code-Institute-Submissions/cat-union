@@ -93,13 +93,20 @@
 
       <section>
         <div class="container-fluid long-image">
-          <div class="row">
-            <div class="col-12 support-page-donate-panel text-center">
-              <h1 class="support-title">Donate</h1>
-              <p>With your support we can make a real difference.</p>
-              <button type="button" class="btn btn-secondary">
-                Donate Now!
-              </button>
+          <div id="donate">
+            <div class="row">
+              <div class="col-12 support-page-donate-panel text-center">
+                <h1 class="support-title">Donate</h1>
+                <p>With your support we can make a real difference.</p>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-toggle="modal"
+                  data-target="#donateModal"
+                >
+                  Donate Now!
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -119,7 +126,12 @@
                   she is a plant. We often find her lounging out inside
                   different plant pots.
                 </p>
-                <button type="submit" class="btn btn-primary btn-sm">
+                <button
+                  type="submit"
+                  class="btn btn-secondary btn-sm"
+                  data-toggle="modal"
+                  data-target="#jessModal"
+                >
                   Sponsor
                 </button>
               </div>
@@ -134,7 +146,12 @@
                   moments of alertness, he will exhaust you with his speed and
                   energy.
                 </p>
-                <button type="submit" class="btn btn-primary btn-sm">
+                <button
+                  type="submit"
+                  class="btn btn-secondary btn-sm"
+                  data-toggle="modal"
+                  data-target="#nicoModal"
+                >
                   Sponsor
                 </button>
               </div>
@@ -148,7 +165,12 @@
                   Will you sponsor Cody. He loves to cuddle and will often curl
                   up on somebody's lap to sleep.
                 </p>
-                <button type="submit" class="btn btn-primary btn-sm">
+                <button
+                  type="submit"
+                  class="btn btn-secondary btn-sm"
+                  data-toggle="modal"
+                  data-target="#codyModal"
+                >
                   Sponsor
                 </button>
               </div>
@@ -161,7 +183,12 @@
                   Kiara. She is our youngest kitten, and still is very curious.
                   She loves our camera and loves to pose.
                 </p>
-                <button type="submit" class="btn btn-primary btn-sm">
+                <button
+                  type="submit"
+                  class="btn btn-secondary btn-sm"
+                  data-toggle="modal"
+                  data-target="#kiaraModal"
+                >
                   Sponsor
                 </button>
               </div>
@@ -185,7 +212,7 @@
               </p>
             </div>
 
-            <div class="col-12 col-lg-6 col-md-6 col-sm-6  volunteer-background">
+            <div class="col-12 col-lg-6 col-md-6 col-sm-6 volunteer-background">
               <h1 class="volunteer-title">Volunteer</h1>
               <p class="volunteer-info">
                 Are you able to spare some time to help out? Please fill in the
@@ -205,6 +232,7 @@
                         class="form-control"
                         id="name"
                         placeholder="Full Name"
+                        required
                       />
 
                       <label for="email">Email address:</label>
@@ -214,13 +242,14 @@
                         id="email"
                         aria-describedby="emailHelp"
                         placeholder="address@catunion.com"
+                        required
                       />
-                      <small id="emailHelp" class="form-text text-muted"
+                      <small id="emailHelp" class="form-text text-secondary"
                         >We'll never share your email with anyone else.</small
                       >
 
                       <div class="form-group">
-                        <label for="exampleFormControlFile1"
+                        <label for="exampleFormControlFile1" required
                           >Attach cover letter</label
                         >
                         <input
@@ -229,7 +258,7 @@
                           id="exampleFormControlFile1"
                         />
                       </div>
-                      <button type="submit" class="btn btn-primary">
+                      <button type="submit" class="btn btn-secondary">
                         Submit
                       </button>
                     </form>
@@ -258,21 +287,20 @@
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-4 help-us">
               <p>Help Today</p>
-              <button
+              <a href="#donate"><button 
                 type="button"
-                class="btn btn-primary button-color"
-                data-toggle="modal"
-                data-target="#exampleModal"
+                class="btn btn-secondary button-color"
+                data-toggle="modal"               
               >
                 Donate
-              </button>
+              </button></a>
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-4 col-4 Location">
               <p>Location</p>
               <button
                 type="button"
-                class="btn btn-primary button-color"
+                class="btn btn-secondary button-color"
                 data-toggle="modal"
                 data-target="#google-location-modal"
               >
@@ -324,6 +352,451 @@
                 </button>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--code for paypal purchasing https://bootsnipp.com/snippets/rlKd6-->
+
+    <div
+      class="modal fade"
+      id="donateModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="donateModelLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="donateModelLabel">Donate</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <table id="cart" class="table table-hover table-condensed">
+                    <thead>
+                      <tr>
+                        <th style="width: 50%;">Donation</th>
+                        <th style="width: 50%;">Price</th>
+
+                        <th style="width: 10%;"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td data-th="Product">
+                          <div class="row">
+                            <div class="col-sm-10">
+                              <h4 class="nomargin">Donation</h4>
+                              <p>
+                                Thank you for supporting us and our cats.
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td data-th="Price">£1.00</td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr class="visible-xs">
+                        <td class="text-center">
+                          <strong>Total £1.00</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="2" class="hidden-xs"></td>
+                        <td class="hidden-xs text-center">
+                          <strong>Total £1.00</strong>
+                        </td>
+                        <td>
+                          <a
+                            href="https://www.paypal.com/webapps/hermes?token=5EY097812P7754247&useraction=commit&mfid=1546377013907_cf1dec6830d7"
+                            class="btn btn-success btn-block"
+                            >Checkout <i class="fa fa-angle-right"></i
+                          ></a>
+                        </td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-warning btn-lg"
+              data-dismiss="modal"
+            >
+              Continue Shopping
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="jessModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="jessModelLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="jessModelLabel">Sponsor</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <table class="table table-hover table-condensed">
+                    <thead>
+                      <tr>
+                        <th style="width: 50%;">Sponsor-Jess</th>
+                        <th style="width: 50%;">Price</th>
+
+                        <th style="width: 10%;"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td data-th="Product">
+                          <div class="row">
+                            <div class="col-sm-10">
+                              <h4 class="nomargin">Sponsor</h4>
+                              <p>
+                                Thank you for sponsoring one of our cats for the
+                                year. We will email you when it is time to
+                                renew.
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td data-th="Price">£15.00</td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr class="visible-xs">
+                        <td class="text-center">
+                          <strong>Total £15.00</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="2" class="hidden-xs"></td>
+                        <td class="hidden-xs text-center">
+                          <strong>Total £15.00</strong>
+                        </td>
+                        <td>
+                          <a
+                            href="https://www.paypal.com/webapps/hermes?token=5EY097812P7754247&useraction=commit&mfid=1546377013907_cf1dec6830d7"
+                            class="btn btn-success btn-block"
+                            >Checkout <i class="fa fa-angle-right"></i
+                          ></a>
+                        </td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-warning btn-lg"
+              data-dismiss="modal"
+            >
+              Continue Shopping
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="nicoModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="nicoModelLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="nicoModelLabel">Sponsor</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <table class="table table-hover table-condensed">
+                    <thead>
+                      <tr>
+                        <th style="width: 50%;">Sponsor-Nico</th>
+                        <th style="width: 50%;">Price</th>
+
+                        <th style="width: 10%;"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td data-th="Product">
+                          <div class="row">
+                            <div class="col-sm-10">
+                              <h4 class="nomargin">Sponsor</h4>
+                              <p>
+                                Thank you for sponsoring one of our cats for the
+                                year. We will email you when it is time to
+                                renew.
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td data-th="Price">£1.00</td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr class="visible-xs">
+                        <td class="text-center">
+                          <strong>Total £1.00</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="2" class="hidden-xs"></td>
+                        <td class="hidden-xs text-center">
+                          <strong>Total £1.00</strong>
+                        </td>
+                        <td>
+                          <a
+                            href="https://www.paypal.com/webapps/hermes?token=5EY097812P7754247&useraction=commit&mfid=1546377013907_cf1dec6830d7"
+                            class="btn btn-success btn-block"
+                            >Checkout <i class="fa fa-angle-right"></i
+                          ></a>
+                        </td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-warning btn-lg"
+              data-dismiss="modal"
+            >
+              Continue Shopping
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="codyModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="codyModelLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="codyModelLabel">Sponsor</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <table class="table table-hover table-condensed">
+                    <thead>
+                      <tr>
+                        <th style="width: 50%;">Sponsor-Cody</th>
+                        <th style="width: 50%;">Price</th>
+
+                        <th style="width: 10%;"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td data-th="Product">
+                          <div class="row">
+                            <div class="col-sm-10">
+                              <h4 class="nomargin">Sponsor</h4>
+                              <p>
+                                Thank you for sponsoring one of our cats for the
+                                year. We will email you when it is time to
+                                renew.
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td data-th="Price">£15.00</td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr class="visible-xs">
+                        <td class="text-center">
+                          <strong>Total £15.00</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="2" class="hidden-xs"></td>
+                        <td class="hidden-xs text-center">
+                          <strong>Total £15.00</strong>
+                        </td>
+                        <td>
+                          <a
+                            href="https://www.paypal.com/webapps/hermes?token=5EY097812P7754247&useraction=commit&mfid=1546377013907_cf1dec6830d7"
+                            class="btn btn-success btn-block"
+                            >Checkout <i class="fa fa-angle-right"></i
+                          ></a>
+                        </td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-warning btn-lg"
+              data-dismiss="modal"
+            >
+              Continue Shopping
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="kiaraModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="kiaraModelLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="kiaraModelLabel">Sponsor</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <table class="table table-hover table-condensed">
+                    <thead>
+                      <tr>
+                        <th style="width: 50%;">Sponsor-Kiara</th>
+                        <th style="width: 50%;">Price</th>
+
+                        <th style="width: 10%;"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td data-th="Product">
+                          <div class="row">
+                            <div class="col-sm-10">
+                              <h4 class="nomargin">Sponsor</h4>
+                              <p>
+                                Thank you for sponsoring one of our cats for the
+                                year. We will email you when it is time to
+                                renew.
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td data-th="Price">£15.00</td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr class="visible-xs">
+                        <td class="text-center">
+                          <strong>Total £15.00</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="2" class="hidden-xs"></td>
+                        <td class="hidden-xs text-center">
+                          <strong>Total £15.00</strong>
+                        </td>
+                        <td>
+                          <a
+                            href="https://www.paypal.com/webapps/hermes?token=5EY097812P7754247&useraction=commit&mfid=1546377013907_cf1dec6830d7"
+                            class="btn btn-success btn-block"
+                            >Checkout <i class="fa fa-angle-right"></i
+                          ></a>
+                        </td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-warning btn-lg"
+              data-dismiss="modal"
+            >
+              Continue Shopping
+            </button>
           </div>
         </div>
       </div>
