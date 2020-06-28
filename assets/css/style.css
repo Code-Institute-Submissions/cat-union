@@ -233,12 +233,9 @@
   bottom: 250px;
   left: 870px;
 }
-.support-title {
-  font-size: 50px;
-  text-align: Center;
-  padding: 20px;
-  z-index: 1;
-}
+
+
+
 .support-page-donate-panel {
   background-image: url(../../assets/images/kitten-group.png);
   background-position: center;
@@ -251,12 +248,23 @@
   z-index: -1;
 }
 
+.support-title {
+  font-size: 50px;
+  text-align: Center;
+  padding: 20px;
+  z-index: 1;
+  position: relative;
+   color: black;
+  top: 20px;
+}
 
 .support-page-donate-panel p {
   text-align: center;
   font-size: 30px;
   color: black;
   z-index: 1;
+  position: relative;
+  top: 70px;
 }
 .support-page-donate-panel button {
   position: relative;
@@ -280,13 +288,11 @@
 
 .fundraising-background {
   min-height: 603px;
-   background-position: center;
+  background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;  
   background-image: url(../../assets/images/kitty-flower.jpg);
-  opacity: 0.5;
-  z-index: -1; 
+   opacity:0.6
 }
 
 .fundraising-background::after {
@@ -298,29 +304,30 @@
   text-align: center;
   color: black;
   position: relative;
-  top: 0px;  
-  padding:20px, 20px, 0px, 20px;
-  z-index: 1;
-  opacity: 1.0 !important;
+  top: 0px;
+  padding: 20px, 20px, 0px, 20px;
+  z-index:1;
 }
 
 .fundraising-info {
   font-size: 20px;
   text-align: center;
   color: black;
-  position: absolute;  
-  opacity: 1.0;
-  z-index: 1;
+  position: absolute;
   padding: 0px, 20px, 20px, 20px;
+  z-index:1;
+  font-style:bold;
+  
 }
+
 .volunteer-title {
   font-size: 25px;
   color: white;
   text-align: center;
   position: relative;
-  top: 0px;  
-  padding:20px, 20px, 0px, 20px;
-  opacity: 1.0;
+  top: 0px;
+  padding: 20px, 20px, 0px, 20px;
+  opacity: 1;
   z-index: 1;
 }
 .volunteer-info {
@@ -330,7 +337,7 @@
   position: relative;
   top: 0px;
   z-index: 1;
-  opacity: 1.0;
+  opacity: 1;
   padding: 0px, 20px, 20px, 20px;
 }
 .volunteer-background {
@@ -341,15 +348,23 @@
   min-height: 603px;
 }
 
+.volunteer-opaque {
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
 .volunteer-box {
   text-align: center;
   height: 200px;
 }
 
 .form-boxed {
-  background-color: black;
-  opacity: 0.4;
+ 
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 0;
+}
+
+.form-control {
+  opacity: 1;
 }
 
 .volunteer-application {
@@ -545,6 +560,7 @@
     opacity: 0.8;
   }
 }
+
 @media screen and (max-width: 1024px) {
   .slogan {
     color: black;
@@ -661,17 +677,17 @@
   .volunteer-background {
     min-height: 600px;
   }
-    .support-lower-panel p {
+  .support-lower-panel p {
     font-size: 18px;
   }
   .volunteer-application {
-  padding: 10px;
-  width: 100%;
-  color: white;
-  position: relative;
-  left: 8em;
-  z-index:1;
-}
+    padding: 10px;
+    width: 100%;
+    color: white;
+    position: relative;
+    left: 8em;
+    z-index: 1;
+  }
 }
 @media screen and (max-width: 768px) {
   .long-image {
@@ -861,13 +877,13 @@
     font-size: 18px;
   }
   .volunteer-application {
-  padding: 10px;
-  width: 100%;
-  color: white;
-  position: relative;
-  left: 0em;
-  z-index:1;
-}
+    padding: 10px;
+    width: 100%;
+    color: white;
+    position: relative;
+    left: 0em;
+    z-index: 1;
+  }
 }
 @media screen and (max-width: 640px) {
   .long-image {
@@ -1389,3 +1405,4 @@
     left: 0px;
   }
 }
+
