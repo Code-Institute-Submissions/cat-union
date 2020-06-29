@@ -1,4 +1,4 @@
-.body-font {
+body {
   font-family: "Kanit", sans-serif;
 }
 .wrapper-header {
@@ -235,8 +235,6 @@
   left: 870px;
 }
 
-
-
 .support-page-donate-panel {
   background-image: url(../../assets/images/kitten-group.png);
   background-position: center;
@@ -244,49 +242,51 @@
   background-repeat: no-repeat;
   min-height: 603px;
   padding-bottom: 10px;
-  background-color: rgb(0, 0, 0);
-  opacity: 0.8;
-  
+  background-color: rgba(0,0,0,0.5);
+  opacity: 0.7;
+  z-index: 1;
+
 }
 
-.support-title {
-  font-size: 50px;
+/* used following website to figure out how to put borders around letters https://stackoverflow.com/questions/2570972/css-font-border */
+
+.donate-title {
+  font-size: 70px;
+  font-weight: bold;
   text-align: Center;
   padding: 20px;
+  position: relative;
+  color: white;
+  top: 10px;
   z-index: 1;
-  position: relative;
-   color: black;
-  top: 20px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.support-page-donate-panel p {
-  text-align: center;
-  font-size: 30px;
-  color: black;
-  
+.donate-statement {
+  font-size: 35px;
+  text-align: Center;
+  padding: 0px;
   position: relative;
-  top: 70px;
+  color: white;
+  top: 10px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-
 
 .support-page-donate-panel button {
   position: relative;
-  top: 250px;
+  top: 150px;
   border-radius: 50%;
   height: 150px;
   width: 150px;
   font-size: 25px;
   border: 3px solid black;
- 
 }
 
-
-
 #donateModal {
-    background-position: absolute;
+  background-position: absolute;
   background-size: cover;
   background-repeat: no-repeat;
-  
+
   padding-bottom: 10px;
 }
 
@@ -305,34 +305,34 @@
   min-height: 603px;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
   background-image: url(../../assets/images/kitty-flower.jpg);
-   opacity:0.6
-}
-
-.fundraising-background::after {
-    opacity: 1.0;
+  background-color: white;
+  opacity: 0.8;
 }
 
 .fundraising-title {
   font-size: 25px;
   text-align: center;
-  color: black;
+
   position: relative;
   top: 0px;
   padding: 20px, 20px, 0px, 20px;
-  z-index:1;
+  z-index: 1;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .fundraising-info {
   font-size: 20px;
   text-align: center;
-  color: black;
+
   position: absolute;
   padding: 0px, 20px, 20px, 20px;
-  z-index:1;
-  font-style:bold;
-  
+  z-index: 1;
+  font-style: bold;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .volunteer-title {
@@ -363,17 +363,12 @@
   min-height: 603px;
 }
 
-.volunteer-opaque {
-    background-color:rgba(0, 0, 0, 0.5);
-}
-
 .volunteer-box {
   text-align: center;
   height: 200px;
 }
 
 .form-boxed {
- 
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 0;
 }
@@ -407,6 +402,10 @@
 }
 .sponsor-panel img {
   padding-top: 10px;
+}
+
+.support-lower-panel p {
+  padding: 0px 30px 30px 30px;
 }
 
 .video-box {
@@ -827,6 +826,7 @@
     bottom: 230px;
     left: 410px;
   }
+
   .sponsor-panel img {
     padding-top: 10px;
     margin: auto;
@@ -840,12 +840,15 @@
     font-size: 20px;
     width: 253px;
   }
-  .support-title {
-    font-size: 25px;
-    text-align: Center;
-    padding: 0px;
-    opacity: 1;
+
+  .donate-title {
+    font-size: 40px;
   }
+
+  .donate-statement {
+    font-size: 25px;
+  }
+
   .support-page-donate-panel {
     background-image: url(../../assets/images/kitten-group.png);
     background-position: center;
@@ -856,19 +859,14 @@
     background-color: rgb(0, 0, 0);
     opacity: 0.8;
   }
-  .support-page-donate-panel p {
-    text-align: center;
-    font-size: 20px;
-    color: black;
-    opacity: 1;
-  }
+
   .support-page-donate-panel button {
     position: relative;
-    top: 100px;
+    top: 30px;
     border-radius: 50%;
-    height: 60px;
-    width: 60px;
-    font-size: 10px;
+    height: 80px;
+    width: 80px;
+    font-size: 16px;
     border: 3px solid black;
   }
   .fundraising-background {
@@ -1037,6 +1035,7 @@
     bottom: 230px;
     left: 260px;
   }
+
   .sponsor-details {
     position: relative;
     right: 0px;
@@ -1213,7 +1212,7 @@
   .volunteer-background {
     min-height: 303px;
   }
-  .support-title {
+  .donate-title {
     font-size: 25px;
     text-align: Center;
     padding: 0px;
@@ -1229,20 +1228,29 @@
     background-color: rgb(0, 0, 0);
     opacity: 0.8;
   }
-  .support-page-donate-panel p {
-    text-align: center;
-    font-size: 20px;
-    color: black;
-    opacity: 1;
+
+  .donate-title {
+    font-size: 30px;
   }
+
+  .donate-statement {
+    font-size: 20px;
+  }
+
   .support-page-donate-panel button {
     position: relative;
-    top: 100px;
+    top: 40px;
     border-radius: 50%;
     height: 60px;
     width: 60px;
     font-size: 10px;
     border: 3px solid black;
+  }
+
+  .volunteer-application {
+    padding: 10px;
+    position: relative;
+    left: 0em;
   }
 }
 @media screen and (max-width: 480px) {
@@ -1396,13 +1404,6 @@
   .volunteer-background {
     min-height: 303px;
   }
-  .volunteer-application {
-    padding: 50px;
-    color: white;
-    position: relative;
-    left: 0em;
-    z-index: 1;
-  }
 }
 @media screen and (max-width: 380px) {
   .sponsor-details p {
@@ -1410,6 +1411,10 @@
     width: 253px;
     position: relative;
     left: 30px;
+  }
+
+  .volunteer-application {
+    padding: 0px, 0px, 0px, 10px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -1420,4 +1425,3 @@
     left: 0px;
   }
 }
-
