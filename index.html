@@ -96,7 +96,7 @@
           <div class="row">
             <div class="col-12 main-page-background"></div>
             <div class="slogan">
-              <p>Cats are at the heart of everything we do.</p>
+              <h2>Cats are at the heart of everything we do.</h2>
             </div>
           </div>
         </div>
@@ -104,50 +104,82 @@
 
       <section>
         <div class="container-fluid adopting-panel">
-          <h1 class="title">Adopt Today!</h1>
-          <div class="row">
-            <div class="col-6 col-lg-4 col-md-4 col-sm-6 cat-box">
-              <img src="assets/images/Salem.png" width="253" height="182" />
+          <div id="adopt">
+            <h2 class="title">Adopt Today!</h2>
+            <div class="row">
+              <div class="col-6 col-lg-4 col-md-4 col-sm-6 cat-box">
+                <img
+                  src="assets/images/Salem.png"
+                  width="253"
+                  height="182"
+                  alt="Salem-Cat"
+                />
 
-              <p class="cat-details">Salem/Male/6</p>
+                <p class="cat-details">Salem/Male/6</p>
+              </div>
+              <div class="col-6 col-lg-4 col-md-4 col-sm-6 cat-box">
+                <img
+                  src="assets/images/Savannah.jpg"
+                  width="253"
+                  height="182"
+                  alt="Savannah-Cat"
+                />
+
+                <p class="cat-details">Savannah/Female/14</p>
+              </div>
+              <div class="col-6 col-lg-4 col-md-4 col-sm-6 cat-box">
+                <img
+                  src="assets/images/charlie.png"
+                  width="253"
+                  height="182"
+                  alt="Charlie-Cat"
+                />
+
+                <p class="cat-details">Charlie/Male/8</p>
+              </div>
+
+              <div class="col-6 col-lg-4 col-md-4 col-sm-6 cat-box">
+                <img
+                  src="assets/images/Cleo.png"
+                  width="253"
+                  height="182"
+                  alt="Cleo-Cat"
+                />
+
+                <p class="cat-details">Cleo/Female/6 mths</p>
+              </div>
+              <div class="col-6 col-lg-4 col-md-4 col-sm-6 cat-box">
+                <img
+                  src="assets/images/Nala.png"
+                  width="253"
+                  height="182"
+                  alt="Nala-Cat"
+                />
+
+                <p class="cat-details">Nala/Female/7</p>
+              </div>
+              <div class="col-6 col-lg-4 col-md-4 col-sm-6 cat-box">
+                <img
+                  src="assets/images/cole.jpg"
+                  width="253"
+                  height="182"
+                  alt="Cole-Cat"
+                />
+
+                <p class="cat-details">Cole/Male/12</p>
+              </div>
             </div>
-            <div class="col-6 col-lg-4 col-md-4 col-sm-6 cat-box">
-              <img src="assets/images/Savannah.jpg" width="253" height="182" />
-
-              <p class="cat-details">Savannah/Female/14</p>
-            </div>
-            <div class="col-6 col-lg-4 col-md-4 col-sm-6 cat-box">
-              <img src="assets/images/charlie.png" width="253" height="182" />
-
-              <p class="cat-details">Charlie/Male/8</p>
-            </div>
-
-            <div class="col-6 col-lg-4 col-md-4 col-sm-6 cat-box">
-              <img src="assets/images/Cleo.png" width="253" height="182" />
-
-              <p class="cat-details">Cleo/Female/6 mths</p>
-            </div>
-            <div class="col-6 col-lg-4 col-md-4 col-sm-6 cat-box">
-              <img src="assets/images/Nala.png" width="253" height="182" />
-
-              <p class="cat-details">Nala/Female/7</p>
-            </div>
-            <div class="col-6 col-lg-4 col-md-4 col-sm-6 cat-box">
-              <img src="assets/images/cole.jpg" width="253" height="182" />
-
-              <p class="cat-details">Cole/Male/12</p>
-            </div>
+            <p class="subtitle">
+              Can you give us a loving home? <br />
+              Give CatsUnion a call.
+            </p>
           </div>
-          <p class="subtitle">
-            Can you give us a loving home? <br />
-            Give CatsUnion a call.
-          </p>
         </div>
       </section>
 
       <section>
         <div class="container-fluid donate-panel">
-          <h1 class="title">Please Donate!</h1>
+          <h2 class="title">Please Donate!</h2>
           <p class="subtitle">
             By donating just £1 per week, <br />
             you could help us to give our cats...
@@ -161,6 +193,7 @@
                 src="assets/images/vets-circle.png"
                 width="183"
                 height="174"
+                alt="vets"
               />
 
               <p class="cat-details">Health checks and Vetinary support</p>
@@ -172,6 +205,7 @@
                 src="assets/images/cat-housing-circle.png"
                 width="183"
                 height="174"
+                alt="housing"
               />
 
               <p class="cat-details">Housing and Comfort</p>
@@ -183,6 +217,7 @@
                 src="assets/images/cat-food-circle.png"
                 width="183"
                 height="174"
+                alt="food"
               />
 
               <p class="donate-details">Food and Drink</p>
@@ -208,14 +243,23 @@
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-4 help-us">
               <p>Help Today</p>
-              <a href="support-us.html#donate"
-                ><button
-                  type="button"
-                  class="btn btn-secondary button-color"
-                  data-toggle="modal"
-                >
-                  Donate
-                </button></a
+              <a
+                href="support-us.html#donate"
+                class="btn btn-secondary btn-sm active"
+                role="button"
+                >Donate</a
+              >
+              <a
+                href="#adopt"
+                class="btn btn-secondary btn-sm active"
+                role="button"
+                >Adopt</a
+              >
+              <a
+                href="support-us.html#sponsor"
+                class="btn btn-secondary btn-sm active"
+                role="button"
+                >Sponsor</a
               >
             </div>
 
