@@ -1,6 +1,11 @@
 * {
   font-family: "Kanit", sans-serif;
 }
+
+#coverletter {
+    width: 100%;
+}
+
 .wrapper-header {
   background-color: #e5b7e9;
   margin: 0;
@@ -11,6 +16,7 @@
 .header {
   margin: 0;
 }
+
 .heading-navbar {
   min-height: 100px;
   min-width: 100px;
@@ -152,7 +158,6 @@
   left: 790px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-
 
 .cat-details {
   text-align: Center;
@@ -320,7 +325,6 @@
   border: 3px solid black;
 }
 
-
 .advice-page-background {
   background-image: url(../../assets/images/cat-fuss.png);
   background-position: center;
@@ -413,7 +417,7 @@
   color: white;
   position: relative;
   left: 17.5em;
-  z-index: 1;
+  opacity: 0.8;
 }
 
 .sponsor-panel {
@@ -470,7 +474,7 @@
 }
 .modal-image {
   background-image: url(../../assets/images/map.png);
-  
+
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 250px;
@@ -507,11 +511,6 @@
   .volunteer-background {
     min-height: 303px;
   }
-
-  .volunteer-application {
-    background-color: black;
-    opacity: 0.8;
-  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -544,7 +543,6 @@
     left: 450px;
   }
   .sponsor-panel img {
-    
     margin: auto;
     display: block;
   }
@@ -567,9 +565,8 @@
   }
   .volunteer-application {
     padding: 10px;
-    width: 100%;
-
     left: 8em;
+    font-family: 'Roboto', sans-serif;
   }
 }
 @media screen and (max-width: 768px) {
@@ -641,7 +638,6 @@
     left: 410px;
   }
 
-
   .sponsor-details {
     right: 63px;
   }
@@ -676,16 +672,13 @@
     min-height: 600px;
   }
   .advice-page-background {
-    
     padding-right: 0px;
     object-fit: cover;
     min-height: 300px;
   }
 
-
   .volunteer-application {
     left: 0em;
-    z-index: 1;
   }
 }
 @media screen and (max-width: 640px) {
@@ -748,7 +741,6 @@
     padding-bottom: 10px;
   }
   .advice-page-background {
-    
     background-position-x: 20%;
   }
 }
@@ -756,7 +748,6 @@
   .slogan {
     left: 10px;
   }
-
 
   .adopting-panel {
     vertical-align: middle;
@@ -770,7 +761,6 @@
     bottom: 320px;
     left: 260px;
   }
-
 
   .sponsor-details p {
     font-size: 16px;
@@ -788,7 +778,6 @@
     padding: 0px;
     opacity: 1;
   }
-
 
   .donate-statement {
     font-size: 20px;
@@ -810,8 +799,6 @@
     padding-right: 0px;
     background-position-x: 50%;
   }
-
-
 
   .upper-statement h2 {
     font-size: 20px;
@@ -840,14 +827,14 @@
   .volunteer-background {
     min-height: 303px;
   }
+  .volunteer-application {
+    padding: 20px 0px 20px 0px;
+    width: 70%;
+  }
 }
 @media screen and (max-width: 380px) {
   .sponsor-details p {
     left: 30px;
-  }
-
-  .volunteer-application {
-    padding: 0px 0px 10px 0px;
   }
 }
 @media screen and (max-width: 320px) {
