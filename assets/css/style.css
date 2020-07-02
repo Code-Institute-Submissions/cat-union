@@ -186,7 +186,7 @@
 .donate-panel {
   min-height: 603px;
   padding-bottom: 10px;
-  background-color: #eeedac;
+  background-color: #B7E9E5;
 }
 .donate-details {
   text-align: Center;
@@ -425,16 +425,6 @@
   max-width: 1539px;
 }
 
-.sponsor-details {
-  text-align: justify;
-  min-width: 253px;
-  float: right;
-  padding-top: 10px;
-}
-
-.sponsor-details button {
-  float: right;
-}
 .sponsor-box {
   padding-top: 10px;
 }
@@ -482,6 +472,7 @@
 }
 .address-info {
   font-size: 15px;
+  padding: 10px;
 }
 @media screen and (max-width: 2560px) {
 }
