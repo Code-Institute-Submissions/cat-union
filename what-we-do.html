@@ -120,7 +120,7 @@
         </div>
       </section>
 
-      <footer>
+        <footer>
         <div class="container-fluid footer-panel">
           <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4 col-4 social-media">
@@ -137,7 +137,7 @@
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-4 help-us">
               <a
-                href="support-us.html#donate"
+                href="#donate"
                 class="btn btn-primary btn-sm active"
                 role="button"
                 >Donate</a
@@ -149,7 +149,7 @@
                 >Adopt</a
               >
               <a
-                href="support-us.html#sponsor"
+                href="#sponsor"
                 class="btn btn-primary btn-sm active"
                 role="button"
                 >Sponsor</a
@@ -169,6 +169,72 @@
           </div>
         </div>
       </footer>
+
+      <div
+        class="modal fade"
+        id="google-location-modal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="map-modal"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="map-modal">Find us</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div
+                  class="col-lg-12 col-md-12 col-sm-12 col-12 modal-image"
+                ></div>
+                <div class="address-info">
+                  <!-- <iframe 
+                        width="500" height="350" 
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=-2.5364470481872563%2C52.653087730792336%2C-2.5081229209899907%2C52.664567280659014&amp;layer=mapnik" 
+                        style="border: 0px solid white; width: 100%;">
+                    </iframe> -->
+
+                  <div>
+                    <i class="fa fa-map"></i> CatsUnion, The Alley, Little
+                    Wenlock, Telford, TF6 5BG
+                  </div>
+                  <div>
+                    <i class="fa fa-phone"></i> Telephone:
+                    <a href="tel:01234567890">01234 567890</a>
+                  </div>
+                  <div>
+                    <i class="fa fa-envelope"></i> Email:
+                    <a href="mailto:contact@catsunion.com"
+                      >contact@catsunion.com</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
       <div
         class="modal fade"
