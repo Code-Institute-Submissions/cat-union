@@ -1,9 +1,9 @@
 * {
-  font-family: "Kanit", sans-serif;
+  font-family: "Patua One", cursive;
 }
 
 #coverletter {
-    width: 100%;
+  width: 100%;
 }
 
 .wrapper-header {
@@ -123,6 +123,11 @@
   text-align: center;
 }
 
+.subtitle a {
+  text-decoration: none;
+  color: #c97ad0;
+}
+
 .slogan {
   color: white;
   font-size: 30px;
@@ -183,10 +188,11 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .donate-panel {
   min-height: 603px;
   padding-bottom: 10px;
-  background-color: #B7E9E5;
+  background-color: #e9e5b7;
 }
 .donate-details {
   text-align: Center;
@@ -223,17 +229,26 @@
   min-height: 600px;
   padding-bottom: 20px;
 }
-.upper-statement h2 {
+
+.image-statement {
+  text-align: center;
+  min-width: 100px;
+  max-width: 400px;
+  padding: 10px;
+
   color: black;
-  font-size: 30px;
-  position: relative;
-  width: 300px;
-  height: 200px;
-  padding-top: 40px;
-  padding-left: 10px;
-  bottom: 600px;
-  left: 840px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.image-statement h2 {
+  font-size: 30px;
+}
+
+.upper-statement {
+  position: relative;
+  bottom: 500px;
+  left: 1340px;
+  background-color: rgba(5, 5, 5, 0.5);
 }
 .middle-image {
   background: rgb(0, 0, 0);
@@ -245,17 +260,11 @@
   min-height: 600px;
   padding-bottom: 20px;
 }
-.middle-statement h2 {
-  color: black;
-  font-size: 30px;
+.middle-statement {
   position: relative;
-  width: 300px;
-  height: 200px;
-  padding-top: 40px;
-  padding-left: 10px;
-  bottom: 610px;
+  bottom: 510px;
   left: 70px;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  background-color: rgba(66, 48, 7, 0.5);
 }
 .lower-image {
   background: rgb(0, 0, 0);
@@ -267,17 +276,11 @@
   min-height: 600px;
   padding-bottom: 20px;
 }
-.lower-statement h2 {
-  color: black;
-  font-size: 30px;
+.lower-statement {
   position: relative;
-  width: 300px;
-  height: 80px;
-  padding-top: 40px;
-  padding-left: 10px;
-  bottom: 250px;
-  left: 870px;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  bottom: 500px;
+  left: 730px;
+  background-color: rgba(95, 129, 241, 0.5);
 }
 
 .support-page-donate-panel {
@@ -459,9 +462,24 @@
 .footer-panel i {
   color: #e5b7e9;
 }
-.button-color {
-  background-color: #e5b7e9;
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:visited {
+  background-color: #b7e9e5 !important;
+  color: black !important;
 }
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #e5b7e9 !important;
+  color: black !important;
+  padding: 2px !important;
+  border: 0px !important;
+}
+
 .modal-image {
   background-image: url(../../assets/images/map.png);
 
@@ -474,8 +492,7 @@
   font-size: 15px;
   padding: 10px;
 }
-@media screen and (max-width: 2560px) {
-}
+
 @media screen and (max-width: 1200px) {
   .support-slogan {
     left: 630px;
@@ -483,13 +500,13 @@
   .advice-slogan {
     left: 530px;
   }
-  .upper-statement h2 {
+  .upper-statement {
     left: 700px;
   }
-  .middle-statement h2 {
+  .middle-statement {
     left: 70px;
   }
-  .lower-statement h2 {
+  .lower-statement {
     font-size: 30px;
 
     bottom: 270px;
@@ -515,23 +532,21 @@
     left: 380px;
   }
 
-  .upper-statement h2 {
-    font-size: 25px;
+  .image-statement {
+    max-width: 300px;
+  }
 
-    width: 200px;
+  .image-statement h2 {
+    font-size: 30px;
+  }
 
+  .upper-statement {
     left: 480px;
   }
 
-  .middle-statement h2 {
-    font-size: 25px;
-  }
-
-  .lower-statement h2 {
-    font-size: 25px;
-
-    bottom: 250px;
-    left: 450px;
+  .lower-statement {
+    bottom: 290px;
+    left: 350px;
   }
   .sponsor-panel img {
     margin: auto;
@@ -557,7 +572,7 @@
   .volunteer-application {
     padding: 10px;
     left: 8em;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 }
 @media screen and (max-width: 768px) {
@@ -600,27 +615,30 @@
   .upper-image {
     min-height: 300px;
   }
-  .upper-statement h2 {
+
+  .image-statement {
+    max-width: 200px;
+  }
+
+  .image-statement h2 {
     font-size: 23px;
+  }
 
-    height: 150px;
-
+  .upper-statement {
     bottom: 280px;
     left: 380px;
   }
   .middle-image {
     min-height: 300px;
   }
-  .middle-statement h2 {
-    font-size: 23px;
-
-    bottom: 180px;
+  .middle-statement {
+    bottom: 280px;
     left: 50px;
   }
   .lower-image {
     min-height: 300px;
   }
-  .lower-statement h2 {
+  .lower-statement {
     font-size: 23px;
 
     width: 200px;
@@ -704,16 +722,26 @@
     min-height: 600px;
   }
 
-  .upper-statement h2 {
+  .image-statment {
+    width: 130px;
+  }
+
+  .upper-statement {
     left: 370px;
+
+    bottom: 20px;
   }
 
-  .middle-statement h2 {
+  .middle-statement {
     left: 30px;
+
+    bottom: 20px;
   }
 
-  .lower-statement h2 {
+  .lower-statement {
     left: 260px;
+
+    bottom: 50px;
   }
 
   .sponsor-details {
@@ -748,7 +776,7 @@
     min-height: 1010px;
   }
 
-  .upper-statement h2 {
+  .upper-statement {
     bottom: 320px;
     left: 260px;
   }
@@ -791,23 +819,25 @@
     background-position-x: 50%;
   }
 
-  .upper-statement h2 {
-    font-size: 20px;
 
+.image-statement h2 {
+    font-size: 20px;
+}
+  .upper-statement {
     bottom: 180px;
     left: 70px;
   }
 
-  .middle-statement h2 {
-    font-size: 20px;
-
+  .middle-statement {
     bottom: 180px;
     left: 70px;
   }
 
-  .lower-statement h2 {
-    font-size: 20px;
+  .lower-image {
+    background-position-x: 89%;
+  }
 
+  .lower-statement {
     bottom: 210px;
     left: 70px;
   }
