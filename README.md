@@ -1,39 +1,200 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Milestone Project 1
 
-Welcome USER_NAME,
+This responsive website was created for Desktop, Tablets and Mobile view. As part of the first milestone project of CodeInstitute's Full Stack Development Course, this was built as a front end static website using HTML, CSS and Bootstrap.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+It was created for the fictional charity CatsUnion, and the website is set up to be bright and elegant in order to induce positive emotions in the user to encourage them to want to support the charity.
 
-## Gitpod Reminders
+-----
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX
 
-`python3 -m http.server`
+<img src="assets/images/Cats-Union-monochrome.png" width="200" height="230" />
 
-A blue button should appear to click: *Make Public*,
+### CatsUnion
 
-Another blue button should appear to click: *Open Browser*.
+This website is built in order to encourage people to support stray, neglected and abandoned Cats and Kittens.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The main purpose of the page is to make visitors want to sponsor a cat, or to donate to the charity.
 
-A blue button should appear to click: *Make Public*,
+In addition, there will be an option to adopt a cat, with a selection of cats to choose from.
 
-Another blue button should appear to click: *Open Browser*.
+### User Stories
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+- As a consumer I want to be able to adopt a Cat or a Kitten to care for.
 
-## Updates Since The Instructional Video
+- As a consumer I want to be able to donate to the charity so I can give my support.
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+- As a consumer I want to be able to sponsor a Cat to a Kitten so I can give support to a specific cat the charity cares for.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- As a charity, we want to explain what we do to help so people know who we are.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- As a charity, we want to show how other people can help us so we can gain more support.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- As a supporter, I want to be able to volunteer so I am able to give my time to a cause that I believe in.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- As a supporter, I want to be able to raise funds in other ways so I can give support to the charity.
 
---------
+Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-Happy coding!
+In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+
+As a user type, I want to perform an action, so that I can achieve a goal.
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+
+###
+
+|     | Feature                        | Importance | Viability |
+| --- | ------------------------------ | :--------: | --------: |
+| A   | Information about the charity  |     5      |         5 |
+| B   | Generate money for the charity |     5      |         4 |
+| C   | Adoption Info                  |     3      |         4 |
+| D   | Responsive Application Form    |     5      |         4 |
+| E   | Location and contact info      |     3      |         4 |
+| F   | Cat Care support               |     2      |         4 |
+|     | Total                          |     23     |        26 |
+
+### Typography
+
+The following [link](https://www.websitebuilderexpert.com/designing-websites/pick-best-font-style-for-website/) was visited in order to decide which font style to select.
+A display type font was chosen as a way to also invoke friendly and playful emotions within the user. 
+The selected display font from [google fonts](https://fonts.google.com/specimen/Patua+One?category=Display&sidebar.open&selection.family=DM+Serif+Display|Kaushan+Script|Patua+One) was Patua One as it had the most professional looking appearance of what the website needed to portray. 
+
+### Colours
+
+I used the [color wheel](https://www.canva.com/colors/color-wheel/) in order to decide which colours I used for my website.
+I chose a shade of pink as my primary colour in order to portray playfulness and happiness that colour psychology suggests. 
+I chose the triadic colour combination to have the colours compliment each other but in a bold way. 
+The light yellow is an optimal colour for the donate panel as psychology suggest it invokes feeling of optimism and friendliness. Another emotion the page intends to portray. 
+I used the complimentary green for the buttons around the pages which works as psychology suggest it gives a sense of positivity, calmness, health and luck encouraging users to press the buttons. 
+
+Click here to see the project [Wireframes](wireframes.md)
+
+Used [Gimp](https://www.gimp.org/) to create my logo by editing [this](https://pixabay.com/vectors/heart-love-cats-kitten-kitty-2766277/) image. The website font from googlefonts was then added to gimp and then inserted underneath the image to create the logo. 
+
+---
+
+## Features
+
+### Existing Features
+
+#### Adopt
+
+Allows user to see the selection of cats available for adoption and follow a link to contact the charity directly and to find out where to find them.
+
+#### Donate
+
+Allows user to give money to the charity by pressing a button and going to checkout through paypal. (dummy)
+
+#### Sponsor
+
+Allows user to select a cat to sponsor by pressing a button and going to checkout through paypal. (dummy)
+
+#### Videos
+
+Allows users to watch appropriate videos on the page which give support with cat care
+
+#### Navbar
+
+Navbars are used throughout which work effectively to link between all four pages. Logo also leads back to Home. On smaller screens the links become a burger bar.
+
+#### Footer
+
+Footers are used throughout which allow users to use links to appropriate facebook twitter and instagram page. Users can also follow links to important divs of adopt, donate and sponsor. There is also a button for users to click which links to a modal with a map and important contact details.
+
+#### Volunteer Form
+
+Allows users to fill in a form to volunteer. The form includes a file attachment so users can attach their CV's.
+
+### Features Left to Implement
+
+The purchase page of sponsor/donate will eventually link to a paypal purchase page. Currently payment isn't possible so it just informs the user to get in touch with the seller.
+
+---
+
+## Technologies Used
+
+---
+
+### HTML
+
+This project uses HTML to create the main functions of the website.
+
+### CSS
+
+This project uses CSS to manipulate the bootstrap elements to fit how I want them, and to lay out my website specifically to how it was envisioned.
+
+### Bootstrap
+
+This project uses Bootstrap to create the layout.
+
+### GitHub/GitHub Pages
+
+GitHub was used to host the projects code
+
+### Git
+
+Git was required to create check points and push the code onto the GitHub hosting server
+
+### GitPod
+
+Gitpod was used to write code
+
+### W3C HTML Validator
+
+This project used the validator to check the HTML was valid. Any errors were corrected
+
+### W3C Jigsaw Validator
+
+This project used the validator to check the CSS was valid. Any errors were corrected
+
+### Balsamiq
+
+Balsamiq was used to build wireframes for the project
+
+---
+
+## Testing
+
+---
+
+For detailed information of the testing follow the link to the document [here](testing.md)
+
+---
+
+## Deployment
+
+---
+
+In order to deploy the website so it was accessible to others on a variety of devices, the following had to occur
+* An index.html was available as the home page
+* Developer used git add filenames.extension to put all files into the staged area
+* Then the staged files were committed by typing in git commit -m "comments about what have been done in this session of coding" 
+* Push the code to gitpod by typing in git push 
+* After finding the repository on github, developer followed settings and scrolled down to Github pages
+* Source was changed to master branch in order to make it accessible to other
+* The following [URL](https://adam181189.github.io/cat-union/) was shared with those who the developer wanted to share it with:https://adam181189.github.io/cat-union/
+
+---
+
+## Credits
+
+---
+
+### Content:
+
+None of the text was copied.
+
+### Media:
+
+The photos used in this site were obtained from ...
+[Pixabay](http://pixabay.com)
+[Unsplash](http://Unsplash.com)
+[Googlemaps](https://www.google.com/maps/place/Little+Wenlock,+Telford/@52.6584399,-2.5252526,16z/data=!3m1!4b1!4m5!3m4!1s0x487078b978614055:0xa3c1b74d6b0c7214!8m2!3d52.658066!4d-2.5225919) (image modified to include fake location)
+
+### Acknowledgements:
+
+I received inspiration for this project from https://www.dogstrust.org.uk/
+
+---
+
+Inline <abbr title="Hypertext Markup Language">HTML</abbr> is supported.
