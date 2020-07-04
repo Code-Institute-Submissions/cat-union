@@ -21,18 +21,37 @@ In addition, there will be an option to adopt a cat, with a selection of cats to
 ### User Stories
 
 - As a consumer I want to be able to adopt a Cat or a Kitten to care for.
+<img src="assets/images/readme-adopt.png"/>
 
 - As a consumer I want to be able to donate to the charity so I can give my support.
+<img src="assets/images/readme-donate.png"/>
+<img src="assets/images/readme-donate-2.png"/>
+<img src="assets/images/readme-donate-pay.png"/>
 
 - As a consumer I want to be able to sponsor a Cat to a Kitten so I can give support to a specific cat the charity cares for.
+<img src="assets/images/readme-sponsor.png"/>
+<img src="assets/images/readme-sponsor-pay.png"/>
+
+- As a consumer I want some support in how to best take care of Cats and Kittens.
+<img src="assets/images/readme-cat-care.png"/>
+
+- As a consumer I want to be able to contact the charity.
+<img src="assets/images/readme-contact.png"/>
+
+
+- As a consumer I want the website to run on different screen sizes.
+
+- As a charity we want users to be able to access our website on desktop and mobile devices.  
+<img src="assets/images/readme-responsive.png"/>
 
 - As a charity, we want to explain what we do to help so people know who we are.
+<img src="assets/images/readme-what-we-do.png"/>
 
-- As a charity, we want to show how other people can help us so we can gain more support.
-
-- As a supporter, I want to be able to volunteer so I am able to give my time to a cause that I believe in.
+- As a charity, we want to be able to allow people to volunteer their times to help us.
+<img src="assets/images/readme-volunteer.png"/>
 
 - As a supporter, I want to be able to raise funds in other ways so I can give support to the charity.
+<img src="assets/images/readme-email-fundraising.png"/>
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 

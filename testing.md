@@ -119,6 +119,14 @@ Clicked each icon to verify that links direct users to intended website main pag
 (Only links to each websites home page as the company is fictional)
 Test passed
 
+### What we do page not working as intended on horizontal view.
+
+Edited media queries to include vertical phone screen sizes
+Changed the position of the upper/middle/lower statements
+Tested on all screen sizes in vertical and horizontal view
+Working as intended
+Test
+
 ### Button colours
 
 Bootstrap button colour options not fitting in with scheme of website.
