@@ -194,6 +194,12 @@
   padding-bottom: 10px;
   background-color: #e9e5b7;
 }
+
+.donate-panel a{
+    text-decoration: none;
+  color: #c97ad0;
+}
+
 .donate-details {
   text-align: Center;
 }
@@ -493,6 +499,12 @@
   padding: 10px;
 }
 
+@media screen and (max-width: 1366px) {
+    .upper-statement {
+        left:800px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
   .support-slogan {
     left: 630px;
@@ -729,19 +741,19 @@
   .upper-statement {
     left: 370px;
 
-    bottom: 20px;
+    bottom: 260px;
   }
 
   .middle-statement {
     left: 30px;
 
-    bottom: 20px;
+    bottom: 220px;
   }
 
   .lower-statement {
     left: 260px;
 
-    bottom: 50px;
+    bottom: 250px;
   }
 
   .sponsor-details {
@@ -763,6 +775,9 @@
     background-position-x: 20%;
   }
 }
+
+
+
 @media screen and (max-width: 600px) {
   .slogan {
     left: 10px;
@@ -810,6 +825,14 @@
     font-size: 10px;
   }
 }
+
+@media screen and (max-width: 568px) {
+    .upper-statement{
+        bottom:190px;
+        left: 300px; 
+    }
+}
+
 @media screen and (max-width: 480px) {
   .advice-slogan {
     left: 10px;
