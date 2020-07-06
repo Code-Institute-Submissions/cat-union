@@ -1,888 +1,954 @@
-* {
-  font-family: "Patua One", cursive;
+body {
+	font-family: "Patua One", sans-serif;
+	margin-top: 100px;
 }
 
-#coverletter {
-  width: 100%;
+
+/* Navigation Bar */
+
+header {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
 }
 
 .wrapper-header {
-  background-color: #e5b7e9;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  max-height: 100%;
+	background-color: #e5aa70;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	max-height: 100%;
 }
+
 .header {
-  margin: 0;
+	margin: 0;
 }
 
 .heading-navbar {
-  min-height: 100px;
-  min-width: 100px;
+	min-height: 100px;
+	min-width: 100px;
 }
+
 .logo {
-  background-image: url(../../assets/images/Cats-Union.png);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+	background-image: url(../../assets/images/Cats-Union-monochrome.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
-.page-title {
-  text-align: center;
-  padding: 20px;
-}
+
 .navbar-light {
-  background-color: #e5b7e9;
+	background-color: #e5aa70;
 }
+
 .navbar {
-  min-height: 100px;
-  padding: 0px;
-  border: 0px;
-  margin: 0px;
-  width: 100%;
+	min-height: 100px;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	width: 100%;
 }
+
 .nav-box {
-  position: relative;
-  bottom: 0;
-  right: 0;
-  padding: 10px 25px;
-  border: 1px;
-  margin: 0px;
-  font-size: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+	position: relative;
+	bottom: 0;
+	right: 0;
+	padding: 10px 25px;
+	border: 1px;
+	margin: 0px;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
 }
+
 .nav li {
-  font-size: 14px;
-  padding: 0;
+	font-size: 14px;
+	padding: 0;
 }
+
 .nav-attach {
-  font-size: 0;
+	font-size: 0;
 }
+
 .nav-box-first {
-  background-color: #e5b7e9;
-  color: black;
+	background-color: #e5aa70;
+	color: black;
 }
+
 .nav-box-first:hover {
-  background-color: #c97ad0;
-  color: black;
+	background-color: #dd9045;
+	color: black;
 }
+
 .nav-box-second {
-  background-color: #e5b7e9;
-  color: black;
+	background-color: #e5aa70;
+	color: black;
 }
+
 .nav-box-second:hover {
-  background-color: #c97ad0;
-  color: black;
+	background-color: #dd9045;
+	color: black;
 }
+
 .nav-box-third {
-  background-color: #e5b7e9;
-  color: black;
+	background-color: #e5aa70;
+	color: black;
 }
+
 .nav-box-third:hover {
-  background-color: #c97ad0;
-  color: black;
+	background-color: #dd9045;
+	color: black;
 }
+
 .nav-box-fourth {
-  background-color: #e5b7e9;
-  color: black;
+	background-color: #e5aa70;
+	color: black;
 }
+
 .nav-box-fourth:hover {
-  background-color: #c97ad0;
-  color: black;
+	background-color: #dd9045;
+	color: black;
 }
+
 .nav-box-active {
-  background-color: #c97ad0;
-  color: black;
+	background-color: #dd9045;
+	color: black;
 }
-.long-image {
-  max-height: 603px;
-  padding-bottom: 10px;
-}
-.main-page-background {
-  background-image: url(../../assets/images/Cat-poke.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 603px;
-  padding-bottom: 10px;
-}
-.adopting-panel {
-  min-height: 403px;
-  padding-bottom: 10px;
-  display: inline-block;
-}
+
+
+/* Titles and Subtitles used throughout */
+
 .title {
-  font-size: 50px;
-  text-align: Center;
-  padding: 20px;
+	font-size: 50px;
+	text-align: Center;
+	padding: 20px;
 }
+
 .subtitle {
-  font-size: 30px;
-  text-align: center;
+	font-size: 30px;
+	text-align: center;
 }
 
 .subtitle a {
-  text-decoration: none;
-  color: #c97ad0;
+	text-decoration: none;
+	color: #e5aa70;
 }
 
+
+/* Top captions for images on index, support us and pet advice */
+
 .slogan {
-  color: white;
-  font-size: 30px;
-  position: relative;
-  width: 300px;
-  height: 200px;
-  padding-top: 40px;
-  padding-left: 10px;
-  bottom: 450px;
-  left: 630px;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color: white;
+	font-size: 30px;
+	position: relative;
+	width: 300px;
+	height: 200px;
+	padding-top: 40px;
+	padding-left: 10px;
+	bottom: 450px;
+	left: 630px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
 .support-slogan {
-  color: black;
-  font-size: 30px;
-  position: relative;
-  width: 300px;
-  height: 200px;
-  padding-top: 40px;
-  padding-left: 10px;
-  bottom: 450px;
-  left: 430px;
+	color: black;
+	font-size: 30px;
+	position: relative;
+	width: 300px;
+	height: 200px;
+	padding-top: 40px;
+	padding-left: 10px;
+	bottom: 450px;
+	left: 430px;
 }
+
 .advice-slogan {
-  color: white;
-  font-size: 30px;
-  position: relative;
-  width: 300px;
-  height: 200px;
-  padding-top: 40px;
-  padding-left: 10px;
-  bottom: 600px;
-  left: 790px;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color: white;
+	font-size: 30px;
+	position: relative;
+	width: 300px;
+	height: 200px;
+	padding-top: 40px;
+	padding-left: 10px;
+	bottom: 600px;
+	left: 790px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+/* Images that fill the page on every page */
+
+.long-image {
+	max-height: 603px;
+	padding-bottom: 10px;
+}
+
+
+/* Index fore image */
+
+.main-page-background {
+	background-image: url(../../assets/images/Cat-poke.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 603px;
+	padding-bottom: 10px;
+}
+
+
+/* Index-Adoption Panel */
+
+.adopting-panel {
+	min-height: 403px;
+	padding-bottom: 10px;
+	display: inline-block;
 }
 
 .cat-details {
-  text-align: Center;
+	text-align: Center;
 }
+
 .cat-box {
-  position: relative;
-  padding: 10px 25px;
-  border: 0px;
-  margin: 0px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+	position: relative;
+	padding: 10px 25px;
+	border: 0px;
+	margin: 0px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
 }
-.salem-cat {
-  background-image: url(../../assets/images/Salem.png);
+
+
+/* All small Cat Images */
+
+.cat-image img {
+	box-shadow: 0px 0px 10px black;
 }
-.savannah-cat {
-  background-image: url(../../assets/images/Savannah.jpg);
-}
-.charlie-cat {
-  background-image: url(../../assets/images/charlie.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
+
+/* Index-Donate panel */
 
 .donate-panel {
-  min-height: 603px;
-  padding-bottom: 10px;
-  background-color: #e9e5b7;
+	min-height: 603px;
+	padding-bottom: 10px;
+	background-color: #f0cfaf;
 }
 
-.donate-panel a{
-    text-decoration: none;
-  color: #c97ad0;
+.donate-panel a {
+	text-decoration: none;
+	color: #dd9045;
 }
 
 .donate-details {
-  text-align: Center;
+	text-align: Center;
 }
+
 .circle-image {
-  position: relative;
-  top: 20px;
-  text-align: center;
-  text-decoration: none;
+	position: relative;
+	top: 20px;
+	text-align: center;
+	text-decoration: none;
 }
+
 .circle-image img {
-  border-width: 1px;
-  border-radius: 50%;
+	border-width: 1px;
+	border-radius: 50%;
 }
 
 .left-circle {
-  position: relative;
-  left: 50px;
+	position: relative;
+	left: 50px;
 }
+
 .middle-circle {
-  top: 60px;
+	top: 60px;
 }
+
 .right-circle {
-  position: relative;
-  right: 50px;
+	position: relative;
+	right: 50px;
 }
-.upper-image {
-  background: rgb(0, 0, 0);
-  opacity: 0.9;
-  background-image: url(../../assets/images/cage-cat.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 600px;
-  padding-bottom: 20px;
-}
+
+
+/* What we do-information panels */
 
 .image-statement {
-  text-align: center;
-  min-width: 100px;
-  max-width: 400px;
-  padding: 10px;
-
-  color: black;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	text-align: center;
+	min-width: 100px;
+	max-width: 400px;
+	padding: 10px;
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .image-statement h2 {
-  font-size: 30px;
+	font-size: 30px;
+}
+
+.upper-image {
+	background: rgb(0, 0, 0);
+	opacity: 0.9;
+	background-image: url(../../assets/images/cage-cat.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 600px;
+	padding-bottom: 20px;
 }
 
 .upper-statement {
-  position: relative;
-  bottom: 500px;
-  left: 1340px;
-  background-color: rgba(5, 5, 5, 0.5);
-}
-.middle-image {
-  background: rgb(0, 0, 0);
-  opacity: 0.9;
-  background-image: url(../../assets/images/Man-with-kitten.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 600px;
-  padding-bottom: 20px;
-}
-.middle-statement {
-  position: relative;
-  bottom: 510px;
-  left: 70px;
-  background-color: rgba(66, 48, 7, 0.5);
-}
-.lower-image {
-  background: rgb(0, 0, 0);
-  opacity: 0.9;
-  background-image: url(../../assets/images/vet-kitten.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 600px;
-  padding-bottom: 20px;
-}
-.lower-statement {
-  position: relative;
-  bottom: 500px;
-  left: 730px;
-  background-color: rgba(95, 129, 241, 0.5);
+	position: relative;
+	bottom: 500px;
+	left: 1340px;
+	background-color: rgba(5, 5, 5, 0.5);
 }
 
-.support-page-donate-panel {
-  background-image: url(../../assets/images/kitten-group.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 603px;
-  padding-bottom: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0.9;
+.middle-image {
+	background: rgb(0, 0, 0);
+	opacity: 0.9;
+	background-image: url(../../assets/images/Man-with-kitten.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 600px;
+	padding-bottom: 20px;
 }
+
+.middle-statement {
+	position: relative;
+	bottom: 510px;
+	left: 70px;
+	background-color: rgba(66, 48, 7, 0.5);
+}
+
+.lower-image {
+	background: rgb(0, 0, 0);
+	opacity: 0.9;
+	background-image: url(../../assets/images/vet-kitten.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 600px;
+	padding-bottom: 20px;
+}
+
+.lower-statement {
+	position: relative;
+	bottom: 500px;
+	left: 730px;
+	background-color: rgba(95, 129, 241, 0.5);
+}
+
+
+/* Support Us-Donate panel */
+
+.support-page-donate-panel {
+	background-image: url(../../assets/images/kitten-group.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 603px;
+	padding-bottom: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0.9;
+}
+
 
 /* used following website to figure out how to put borders around letters https://stackoverflow.com/questions/2570972/css-font-border */
 
 .donate-title {
-  font-size: 70px;
-  font-weight: bold;
-  text-align: Center;
-  padding: 20px;
-  position: relative;
-  color: white;
-  top: 10px;
-  z-index: 1;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 70px;
+	font-weight: bold;
+	text-align: Center;
+	padding: 20px;
+	position: relative;
+	color: white;
+	top: 10px;
+	z-index: 1;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .donate-statement {
-  font-size: 35px;
-  text-align: Center;
-  padding: 0px;
-  position: relative;
-  color: white;
-  top: 10px;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 35px;
+	text-align: Center;
+	padding: 0px;
+	position: relative;
+	color: white;
+	top: 10px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .support-page-donate-panel button {
-  position: relative;
-  top: 150px;
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-  font-size: 25px;
-  border: 3px solid black;
+	position: relative;
+	top: 150px;
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	font-size: 25px;
+	border: 3px solid black;
 }
 
-.advice-page-background {
-  background-image: url(../../assets/images/cat-fuss.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 603px;
-  padding-bottom: 10px;
-  background-color: rgb(0, 0, 0);
-  opacity: 0.8;
+
+/* Support Us-Fundrasising and Volunteer panel */
+
+.support-lower-panel p {
+	padding: 0px 30px 30px 30px;
 }
+
+
+/* Support us-Fundraising info */
 
 .fundraising-background {
-  min-height: 603px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../../assets/images/kitty-flower.jpg);
-  background-color: white;
-  opacity: 0.8;
+	min-height: 603px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../../assets/images/kitty-flower.jpg);
+	background-color: white;
+	opacity: 0.8;
 }
 
 .fundraising-title {
-  font-size: 25px;
-  text-align: center;
-
-  position: relative;
-  top: 0px;
-  padding: 20px 20px 0px 20px;
-  z-index: 1;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 25px;
+	text-align: center;
+	position: relative;
+	top: 0px;
+	padding: 20px 20px 0px 20px;
+	z-index: 1;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .fundraising-info {
-  font-size: 20px;
-  text-align: center;
-
-  position: absolute;
-  padding: 0px 20px 20px 20px;
-  z-index: 1;
-  font-weight: bold;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	padding: 0px 20px 20px 20px;
+	z-index: 1;
+	font-weight: bold;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
+
+/* volunteer form */
 
 .volunteer-title {
-  font-size: 25px;
-  color: white;
-  text-align: center;
-  position: relative;
-  top: 0px;
-  padding: 20px 20px 0px 20px;
-  opacity: 1;
-  z-index: 1;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 0px;
+	padding: 20px 20px 0px 20px;
+	opacity: 1;
+	z-index: 1;
 }
+
 .volunteer-info {
-  font-size: 20px;
-  text-align: center;
-  color: white;
-  position: relative;
-  top: 0px;
-  z-index: 1;
-  opacity: 1;
-  padding: 0px 20px 20px 20px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 0px;
+	z-index: 1;
+	opacity: 1;
+	padding: 0px 20px 20px 20px;
 }
+
 .volunteer-background {
-  background-image: url(../../assets/images/affectionate-cat.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 603px;
+	background-image: url(../../assets/images/affectionate-cat.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 603px;
 }
 
 .volunteer-box {
-  text-align: center;
-  height: 200px;
+	text-align: center;
+	height: 200px;
+}
+
+#coverletter {
+	width: 100%;
 }
 
 .form-boxed {
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 0;
 }
 
 .form-control {
-  opacity: 1;
+	opacity: 1;
 }
 
 .volunteer-application {
-  padding: 50px;
-  color: white;
-  position: relative;
-  left: 17.5em;
-  opacity: 0.8;
+	padding: 50px;
+	color: white;
+	position: relative;
+	left: 17.5em;
+	opacity: 0.8;
 }
 
+
+/* Support Us-Sponsor panel */
+
 .sponsor-panel {
-  padding-bottom: 30px;
-  max-width: 1539px;
+	padding-bottom: 30px;
+	max-width: 1539px;
 }
 
 .sponsor-box {
-  padding-top: 10px;
-}
-.sponsor-panel img {
-  padding-top: 10px;
+	padding-top: 10px;
 }
 
-.support-lower-panel p {
-  padding: 0px 30px 30px 30px;
+
+/* Pet advice-Fore image */
+
+.advice-page-background {
+	background-image: url(../../assets/images/cat-fuss.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 603px;
+	padding-bottom: 10px;
+	background-color: rgb(0, 0, 0);
+	opacity: 0.8;
 }
+
+
+/* Pet Advice-videos */
 
 .video-box {
-  padding: 50px;
+	padding: 50px;
 }
+
 .video-title {
-  text-align: center;
-  font-size: 20px;
-  position: relative;
-  top: 40px;
+	text-align: center;
+	font-size: 20px;
+	position: relative;
+	top: 40px;
 }
-.footer-panel {
-  background-color: black;
-  position: relative;
-  bottom: 0;
-  text-align: center;
-  padding-bottom: 10px;
+
+
+/* Footer */
+
+footer {
+	background-color: black;
+	position: relative;
+	bottom: 0;
+	text-align: center;
+	padding: 10px;
 }
+
+.social-media {
+	color: #e5aa70;
+}
+
+.help-us {
+	color: #e5aa70;
+}
+
 .footer-panel p {
-  font-size: 15px;
-  color: #e5b7e9;
+	font-size: 15px;
+	color: #e5aa70;
 }
-.footer-panel i {
-  color: #e5b7e9;
+
+.social-media a {
+	color: #e5aa70;
 }
+
+.help-us a {
+	color: #e5aa70;
+}
+
+.location a {
+	color: #e5aa70;
+}
+
+#copyright {
+	color: #e5aa70;
+}
+
+
+/* Buttons */
+
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:active,
 .btn-secondary:visited {
-  background-color: #b7e9e5 !important;
-  color: black !important;
+	background-color: #f0efaf;
+	color: black;
 }
 
 .btn-primary,
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:visited {
-  background-color: #e5b7e9 !important;
-  color: black !important;
-  padding: 2px !important;
-  border: 0px !important;
+	background-color: #e5aa70 !important;
+	color: black !important;
+	padding: 2px;
+	border: 0px;
 }
+
+
+/* Modal styles */
 
 .modal-image {
-  background-image: url(../../assets/images/map.png);
-
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 250px;
-  padding-bottom: 10px;
+	background-image: url(../../assets/images/map.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 250px;
+	padding-bottom: 10px;
 }
+
 .address-info {
-  font-size: 15px;
-  padding: 10px;
+	font-size: 15px;
+	padding: 10px;
 }
 
 @media screen and (max-width: 1366px) {
-    .upper-statement {
-        left:800px;
-    }
+	.upper-statement {
+		left: 800px;
+	}
 }
 
 @media screen and (max-width: 1200px) {
-  .support-slogan {
-    left: 630px;
-  }
-  .advice-slogan {
-    left: 530px;
-  }
-  .upper-statement {
-    left: 700px;
-  }
-  .middle-statement {
-    left: 70px;
-  }
-  .lower-statement {
-    font-size: 30px;
-
-    bottom: 270px;
-    left: 700px;
-  }
-
-  .fundraising-background {
-    min-height: 303px;
-  }
-  .volunteer-background {
-    min-height: 303px;
-  }
+	.support-slogan {
+		left: 630px;
+	}
+	.advice-slogan {
+		left: 530px;
+	}
+	.upper-statement {
+		left: 700px;
+	}
+	.middle-statement {
+		left: 70px;
+	}
+	.lower-statement {
+		font-size: 30px;
+		bottom: 270px;
+		left: 700px;
+	}
+	.fundraising-background {
+		min-height: 303px;
+	}
+	.volunteer-background {
+		min-height: 303px;
+	}
 }
 
 @media screen and (max-width: 1024px) {
-  .slogan {
-    left: 450px;
-  }
-  .support-slogan {
-    left: 480px;
-  }
-  .advice-slogan {
-    left: 380px;
-  }
-
-  .image-statement {
-    max-width: 300px;
-  }
-
-  .image-statement h2 {
-    font-size: 30px;
-  }
-
-  .upper-statement {
-    left: 480px;
-  }
-
-  .lower-statement {
-    bottom: 290px;
-    left: 350px;
-  }
-  .sponsor-panel img {
-    margin: auto;
-    display: block;
-  }
-  .sponsor-details {
-    position: relative;
-    right: 150px;
-  }
-  .sponsor-details p {
-    font-size: 25px;
-    width: 330px;
-  }
-  .fundraising-background {
-    min-height: 600px;
-  }
-  .volunteer-background {
-    min-height: 600px;
-  }
-  .support-lower-panel p {
-    font-size: 18px;
-  }
-  .volunteer-application {
-    padding: 10px;
-    left: 8em;
-    font-family: "Roboto", sans-serif;
-  }
+	.slogan {
+		left: 450px;
+	}
+	.support-slogan {
+		left: 480px;
+	}
+	.advice-slogan {
+		left: 380px;
+	}
+	.image-statement {
+		max-width: 300px;
+	}
+	.image-statement h2 {
+		font-size: 30px;
+	}
+	.upper-statement {
+		left: 480px;
+	}
+	.lower-statement {
+		bottom: 290px;
+		left: 350px;
+	}
+	.sponsor-panel img {
+		margin: auto;
+		display: block;
+	}
+	.sponsor-details {
+		position: relative;
+		right: 150px;
+	}
+	.sponsor-details p {
+		font-size: 25px;
+		width: 330px;
+	}
+	.fundraising-background {
+		min-height: 600px;
+	}
+	.volunteer-background {
+		min-height: 600px;
+	}
+	.support-lower-panel p {
+		font-size: 18px;
+	}
+	.volunteer-application {
+		padding: 10px;
+		left: 8em;
+		font-family: "Roboto", sans-serif;
+	}
 }
+
 @media screen and (max-width: 768px) {
-  .long-image {
-    max-height: 303px;
-  }
-  .slogan {
-    bottom: 250px;
-    left: 250px;
-    text-align: center;
-    padding-top: 10px;
-  }
-  .advice-slogan {
-    font-size: 25px;
-    bottom: 300px;
-    left: 200px;
-    text-align: center;
-    padding-top: 10px;
-  }
-  .main-page-background {
-    padding-right: 0px;
-    object-fit: cover;
-    min-height: 300px;
-    background-position-x: 20%;
-  }
-
-  .adopting-panel {
-    min-height: 300px;
-  }
-  .cat-box img {
-    width: 70%;
-    height: 70%;
-  }
-  .left-circle {
-    left: 0px;
-  }
-  .right-circle {
-    right: 0px;
-  }
-  .upper-image {
-    min-height: 300px;
-  }
-
-  .image-statement {
-    max-width: 200px;
-  }
-
-  .image-statement h2 {
-    font-size: 23px;
-  }
-
-  .upper-statement {
-    bottom: 280px;
-    left: 380px;
-  }
-  .middle-image {
-    min-height: 300px;
-  }
-  .middle-statement {
-    bottom: 280px;
-    left: 50px;
-  }
-  .lower-image {
-    min-height: 300px;
-  }
-  .lower-statement {
-    font-size: 23px;
-
-    width: 200px;
-
-    bottom: 230px;
-    left: 410px;
-  }
-
-  .sponsor-details {
-    right: 63px;
-  }
-  .sponsor-details p {
-    font-size: 20px;
-    width: 253px;
-  }
-
-  .donate-title {
-    font-size: 40px;
-  }
-
-  .donate-statement {
-    font-size: 25px;
-  }
-
-  .support-page-donate-panel {
-    min-height: 300px;
-  }
-
-  .support-page-donate-panel button {
-    top: 30px;
-
-    height: 80px;
-    width: 80px;
-    font-size: 16px;
-  }
-  .fundraising-background {
-    min-height: 600px;
-  }
-  .volunteer-background {
-    min-height: 600px;
-  }
-  .advice-page-background {
-    padding-right: 0px;
-    object-fit: cover;
-    min-height: 300px;
-  }
-
-  .volunteer-application {
-    left: 0em;
-  }
+	.long-image {
+		max-height: 303px;
+	}
+	.slogan {
+		bottom: 250px;
+		left: 250px;
+		text-align: center;
+		padding-top: 10px;
+	}
+	.advice-slogan {
+		font-size: 25px;
+		bottom: 300px;
+		left: 200px;
+		text-align: center;
+		padding-top: 10px;
+	}
+	.main-page-background {
+		padding-right: 0px;
+		object-fit: cover;
+		min-height: 300px;
+		background-position-x: 20%;
+	}
+	.adopting-panel {
+		min-height: 300px;
+	}
+	.cat-box img {
+		width: 70%;
+		height: 70%;
+	}
+	.left-circle {
+		left: 0px;
+	}
+	.right-circle {
+		right: 0px;
+	}
+	.upper-image {
+		min-height: 300px;
+	}
+	.image-statement {
+		max-width: 200px;
+	}
+	.image-statement h2 {
+		font-size: 23px;
+	}
+	.upper-statement {
+		bottom: 280px;
+		left: 380px;
+	}
+	.middle-image {
+		min-height: 300px;
+	}
+	.middle-statement {
+		bottom: 280px;
+		left: 50px;
+	}
+	.lower-image {
+		min-height: 300px;
+	}
+	.lower-statement {
+		font-size: 23px;
+		width: 200px;
+		bottom: 230px;
+		left: 410px;
+	}
+	.sponsor-details {
+		right: 63px;
+	}
+	.sponsor-details p {
+		font-size: 20px;
+		width: 253px;
+	}
+	.donate-title {
+		font-size: 40px;
+	}
+	.donate-statement {
+		font-size: 25px;
+	}
+	.support-page-donate-panel {
+		min-height: 300px;
+	}
+	.support-page-donate-panel button {
+		top: 30px;
+		height: 80px;
+		width: 80px;
+		font-size: 16px;
+	}
+	.fundraising-background {
+		min-height: 600px;
+	}
+	.volunteer-background {
+		min-height: 600px;
+	}
+	.advice-page-background {
+		padding-right: 0px;
+		object-fit: cover;
+		min-height: 300px;
+	}
+	.volunteer-application {
+		left: 0em;
+	}
 }
+
 @media screen and (max-width: 640px) {
-  .slogan {
-    font-size: 20px;
-
-    left: 70px;
-  }
-  .advice-slogan {
-    font-size: 20px;
-
-    left: 160px;
-  }
-
-  .adopting-panel {
-    vertical-align: center;
-  }
-  .cat-box img {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    width: 100%;
-  }
-  .subtitle {
-    font-size: 15px;
-  }
-  .middle-circle {
-    top: 20px;
-  }
-
-  .donate-panel {
-    min-height: 600px;
-  }
-
-  .image-statment {
-    width: 130px;
-  }
-
-  .upper-statement {
-    left: 370px;
-
-    bottom: 260px;
-  }
-
-  .middle-statement {
-    left: 30px;
-
-    bottom: 220px;
-  }
-
-  .lower-statement {
-    left: 260px;
-
-    bottom: 250px;
-  }
-
-  .sponsor-details {
-    right: 0px;
-  }
-  .sponsor-details p {
-    position: relative;
-    left: 30px;
-  }
-  .fundraising-background {
-    min-height: 303px;
-    padding-bottom: 10px;
-  }
-  .volunteer-background {
-    min-height: 303px;
-    padding-bottom: 10px;
-  }
-  .advice-page-background {
-    background-position-x: 20%;
-  }
+	.slogan {
+		font-size: 20px;
+		left: 70px;
+	}
+	.advice-slogan {
+		font-size: 20px;
+		left: 160px;
+	}
+	.adopting-panel {
+		vertical-align: center;
+	}
+	.cat-box img {
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;
+		width: 100%;
+	}
+	.subtitle {
+		font-size: 15px;
+	}
+	.middle-circle {
+		top: 20px;
+	}
+	.donate-panel {
+		min-height: 600px;
+	}
+	.image-statment {
+		width: 130px;
+	}
+	.upper-statement {
+		left: 370px;
+		bottom: 260px;
+	}
+	.middle-statement {
+		left: 30px;
+		bottom: 220px;
+	}
+	.lower-statement {
+		left: 260px;
+		bottom: 250px;
+	}
+	.sponsor-details {
+		right: 0px;
+	}
+	.sponsor-details p {
+		position: relative;
+		left: 30px;
+	}
+	.fundraising-background {
+		min-height: 303px;
+		padding-bottom: 10px;
+	}
+	.volunteer-background {
+		min-height: 303px;
+		padding-bottom: 10px;
+	}
+	.advice-page-background {
+		background-position-x: 20%;
+	}
 }
-
-
 
 @media screen and (max-width: 600px) {
-  .slogan {
-    left: 10px;
-  }
-
-  .adopting-panel {
-    vertical-align: middle;
-  }
-
-  .donate-panel {
-    min-height: 1010px;
-  }
-
-  .upper-statement {
-    bottom: 320px;
-    left: 260px;
-  }
-
-  .sponsor-details p {
-    font-size: 16px;
-    left: 50px;
-  }
-  .fundraising-background {
-    min-height: 303px;
-  }
-  .volunteer-background {
-    min-height: 303px;
-  }
-  .donate-title {
-    font-size: 25px;
-    text-align: Center;
-    padding: 0px;
-    opacity: 1;
-  }
-
-  .donate-statement {
-    font-size: 20px;
-  }
-
-  .support-page-donate-panel button {
-    top: 40px;
-
-    height: 60px;
-    width: 60px;
-    font-size: 10px;
-  }
+	.slogan {
+		left: 10px;
+	}
+	.adopting-panel {
+		vertical-align: middle;
+	}
+	.donate-panel {
+		min-height: 1010px;
+	}
+	.upper-statement {
+		bottom: 320px;
+		left: 260px;
+	}
+	.sponsor-details p {
+		font-size: 16px;
+		left: 50px;
+	}
+	.fundraising-background {
+		min-height: 303px;
+	}
+	.volunteer-background {
+		min-height: 303px;
+	}
+	.donate-title {
+		font-size: 25px;
+		text-align: Center;
+		padding: 0px;
+		opacity: 1;
+	}
+	.donate-statement {
+		font-size: 20px;
+	}
+	.support-page-donate-panel button {
+		top: 40px;
+		height: 60px;
+		width: 60px;
+		font-size: 10px;
+	}
 }
 
 @media screen and (max-width: 568px) {
-    .upper-statement{
-        bottom:190px;
-        left: 300px; 
-    }
+	.upper-statement {
+		bottom: 190px;
+		left: 300px;
+	}
 }
 
 @media screen and (max-width: 480px) {
-  .advice-slogan {
-    left: 10px;
-  }
-  .main-page-background {
-    padding-right: 0px;
-    background-position-x: 50%;
-  }
-
-
-.image-statement h2 {
-    font-size: 20px;
+	.advice-slogan {
+		left: 10px;
+	}
+	.main-page-background {
+		padding-right: 0px;
+		background-position-x: 50%;
+	}
+	.image-statement h2 {
+		font-size: 20px;
+	}
+	.upper-statement {
+		bottom: 180px;
+		left: 70px;
+	}
+	.middle-statement {
+		bottom: 180px;
+		left: 70px;
+	}
+	.lower-image {
+		background-position-x: 89%;
+	}
+	.lower-statement {
+		bottom: 210px;
+		left: 70px;
+	}
+	.fundraising-background {
+		min-height: 303px;
+	}
+	.volunteer-background {
+		min-height: 303px;
+	}
+	.volunteer-application {
+		padding: 20px 0px 20px 0px;
+		width: 70%;
+	}
 }
-  .upper-statement {
-    bottom: 180px;
-    left: 70px;
-  }
 
-  .middle-statement {
-    bottom: 180px;
-    left: 70px;
-  }
-
-  .lower-image {
-    background-position-x: 89%;
-  }
-
-  .lower-statement {
-    bottom: 210px;
-    left: 70px;
-  }
-
-  .fundraising-background {
-    min-height: 303px;
-  }
-  .volunteer-background {
-    min-height: 303px;
-  }
-  .volunteer-application {
-    padding: 20px 0px 20px 0px;
-    width: 70%;
-  }
-}
 @media screen and (max-width: 380px) {
-  .sponsor-details p {
-    left: 30px;
-  }
+	.sponsor-details p {
+		left: 30px;
+	}
 }
+
 @media screen and (max-width: 320px) {
-  .sponsor-details p {
-    left: 0px;
-  }
+	.sponsor-details p {
+		left: 0px;
+	}
 }
