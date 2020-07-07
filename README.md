@@ -34,11 +34,11 @@
 
 ---
 
-## UX
+## UX 
 
 ---
 
-### User Stories <a name="UserStories"></a>
+### User Stories
 
 - As a user I want to be able to adopt a Cat or a Kitten to care for.
 
@@ -56,21 +56,7 @@
 
 - As a user, I want to be able to raise funds in other ways so I can give support to the charity.
 
-<img src="assets/images/readme-adopt.png"/>
-<img src="assets/images/readme-donate.png"/>
-<img src="assets/images/readme-donate-2.png"/>
-<img src="assets/images/readme-donate-pay.png"/>
-<img src="assets/images/readme-sponsor.png"/>
-<img src="assets/images/readme-sponsor-pay.png"/>
-<img src="assets/images/readme-cat-care.png"/>
-<img src="assets/images/readme-contact.png"/>
-<img src="assets/images/readme-responsive.png"/>
-<img src="assets/images/readme-what-we-do.png"/>
-<img src="assets/images/readme-volunteer.png"/>
-<img src="assets/images/readme-email-fundraising.png"/>
-
 ### Project Viability
-
 |     | Feature                        | Importance | Viability |
 | --- | ------------------------------ | :--------: | --------: |
 | A   | Information about the charity  |     5      |         5 |
@@ -120,7 +106,7 @@ The following [website](https://www.canva.com/colors/color-wheel/) was useful in
 
 * Used [Gimp](https://www.gimp.org/) to create the logo by editing [this](https://pixabay.com/vectors/heart-love-cats-kitten-kitty-2766277/) image. The website font from googlefonts was then added to gimp and then inserted underneath the image to create the logo. 
 
-
+[Back to contents](#Table-of-Contents)
 ---
 
 ## Features
@@ -163,6 +149,7 @@ The following [website](https://www.canva.com/colors/color-wheel/) was useful in
 
     - The purchase page of sponsor/donate will eventually link to a paypal purchase page. Demo example currently 
 
+[Back to contents](#Table-of-Contents)
 ---
 
 ## Technologies Used
@@ -178,7 +165,7 @@ The following [website](https://www.canva.com/colors/color-wheel/) was useful in
     - This project uses CSS to manipulate the bootstrap elements to fit how I want them, and to lay out my website specifically to how it was envisioned.
 
 
-
+[Back to contents](#Table-of-Contents)
 ---
 
 ## Testing
@@ -203,29 +190,28 @@ The following [website](https://www.canva.com/colors/color-wheel/) was useful in
 ### Manual Testing 
 For detailed information of the testing follow the link to the document [here](testing.md)
 
+[Back to contents](#Table-of-Contents)
 ---
 
 ## Deployment
-
-
-
 ---
 
-The [CatsUnion repository](https://github.com/adam181189/cat-union) was developed using github workspaces, and all commits were pushed to GitHub using Git.
+*The [CatsUnion repository](https://github.com/adam181189/cat-union) was developed using github workspaces, and all commits were pushed to GitHub using Git.
 
-Commits were pushed every time important sections were completed in order to create useful ongoing checkpoints.
+*Commits were pushed every time important sections were completed in order to create useful ongoing checkpoints.
 
 ### Local Deployment
 
-Local Deployment not required
+* Local Deployment not required
 
 ### Remote Deployment
 
-Deployed Site: 
+* Deployed Site: 
 
-* https://adam181189.github.io/cat-union/ 
+    - https://adam181189.github.io/cat-union/ 
 
 
+[Back to contents](#Table-of-Contents)
 ---
 
 ## Credits
@@ -234,7 +220,7 @@ Deployed Site:
 
 ### Content:
 
-[Camila-Ribeiro](https://github.com/Camila-Ribeiro) - README.md inspiration
+* [Camila-Ribeiro](https://github.com/Camila-Ribeiro) - README.md inspiration
 
 ### Media:
 
@@ -246,3 +232,5 @@ Deployed Site:
 ### Acknowledgements:
 
 I received inspiration for this project from https://www.dogstrust.org.uk/
+
+[Back to contents](#Table-of-Contents)
