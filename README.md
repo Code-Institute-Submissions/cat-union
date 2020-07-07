@@ -8,29 +8,30 @@
 
 ---
 
-1. [UX](#UX)
-   - [User Stories](#UserStories)
-   - [Viability](#viability)
-   - [Frameworks](#frameworks)
+1. [UX](#ux)
+   - [User Stories](#user-stories)
+   - [Viability](#project-viability)
+   - [Frameworks](#frameworks-used)
    - [Typography](#typography)
    - [Colors](#colors)
+   - [icons](#icons)
    - [Wireframes](#wireframes)
-   - [Logo](#Logo)
-2. [Features](#Features)
-   - [Existing Features](#existing)
-   - [Features left to implement](#features-implement)
-3. [Technologies Used](#technologies)
-   - [Front End Technologies](#FEtech)
+   - [Logo](#logo)
+2. [Features](#features)
+   - [Existing Features](#existing-features)
+   - [Features left to implement](#features-left-to-implement)
+3. [Technologies Used](#technologies-used)
+   - [Front End Technologies](#front-end-technology)
 4. [Testing](#testing)
    - [Validators](#validators)
    - [Testing Methods](#testing-methods)
 5. [Deployment](#deploy)
-   - [Local Deployment](#local)
-   - [Remote Deployment](#remote)
+   - [Local Deployment](#local-deployment)
+   - [Remote Deployment](#remote-deployment)
 6. [Credits](#credits)
    - [Content](#content)
-   - [Media](#Media)
-   - [Acknowledgements](#Acknowledgements)
+   - [Media](#media)
+   - [Acknowledgements](#acknowledgements)
 
 ---
 
@@ -80,7 +81,7 @@ The following [webpage](https://www.websitebuilderexpert.com/designing-websites/
 
 * [Patua One](https://fonts.google.com/specimen/Patua+One?category=Display&sidebar.open&selection.family=DM+Serif+Display|Kaushan+Script|Patua+One)
 
-### Colours
+### Colors
 
 The following [website](https://www.canva.com/colors/color-wheel/) was useful in order to decide which colours I used for my website.
 
@@ -105,7 +106,7 @@ The following [website](https://www.canva.com/colors/color-wheel/) was useful in
 ### Logo
 
 - Used [Gimp](https://www.gimp.org/) to create the logo by editing [this](https://pixabay.com/vectors/heart-love-cats-kitten-kitty-2766277/) image. The website font from googlefonts was then added to gimp and then inserted underneath the image to create the logo.
-##### back to [top](#table-of-contents)
+##### Back to [top](#table-of-contents)
 ---
 
 ## Features
@@ -148,7 +149,7 @@ The following [website](https://www.canva.com/colors/color-wheel/) was useful in
 
   - The purchase page of sponsor/donate will eventually link to a paypal purchase page. Demo example currently
 
-##### back to [top](#table-of-contents)
+##### Back to [top](#table-of-contents)
 
 ---
 
@@ -164,7 +165,7 @@ The following [website](https://www.canva.com/colors/color-wheel/) was useful in
 
   - This project uses CSS to manipulate the bootstrap elements to fit how I want them, and to lay out my website specifically to how it was envisioned.
 
-##### back to [top](#table-of-contents)
+##### Back to [top](#table-of-contents)
 
 ---
 
@@ -186,10 +187,10 @@ The following [website](https://www.canva.com/colors/color-wheel/) was useful in
 
 <img src="assets/images/readme-audit.png"/>
 
-### Manual Testing
+### Testing Methods
 
 For detailed information of the testing follow the link to the document [here](testing.md)
-##### back to [top](#table-of-contents)
+##### Back to [top](#table-of-contents)
 ---
 
 ## Deployment
@@ -210,25 +211,25 @@ For detailed information of the testing follow the link to the document [here](t
 
   - https://adam181189.github.io/cat-union/
 
-##### back to [top](#table-of-contents)
+##### Back to [top](#table-of-contents)
 ---
 
 ## Credits
 
 ---
 
-### Content:
+### Content
 
 - [Camila-Ribeiro](https://github.com/Camila-Ribeiro) - README.md inspiration
 
-### Media:
+### Media
 
 - [Pixabay](http://pixabay.com) - Database Images
 - [Unsplash](http://Unsplash.com) - Database Images
 - [Googlemaps](https://www.google.com/maps/place/Little+Wenlock,+Telford/@52.6584399,-2.5252526,16z/data=!3m1!4b1!4m5!3m4!1s0x487078b978614055:0xa3c1b74d6b0c7214!8m2!3d52.658066!4d-2.5225919) - image modified to include fake location
 
-### Acknowledgements:
+### Acknowledgements
 
 I received inspiration for this project from https://www.dogstrust.org.uk/
 
-##### back to [top](#table-of-contents)
+##### Back to [top](#table-of-contents)
