@@ -1,6 +1,14 @@
 body {
 	font-family: "Patua One", sans-serif;
-	margin-top: 100px;
+    position: relative;
+    margin-top: 100px;
+}
+
+/* fix for anchor position: https://stackoverflow.com/a/14563699 */
+section {
+    padding-top: 100px;
+    margin-top: -100px;
+    /* border-top: 10px solid #FF0; */
 }
 
 
@@ -35,6 +43,7 @@ header {
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
+    margin:10px 0px 10px 0px;
 }
 
 .navbar-light {
