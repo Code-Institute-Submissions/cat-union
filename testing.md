@@ -78,6 +78,11 @@
     - Ensured that each link led to the correct location on every page
     - Repeated steps 1 and 2 on mobile and tablet.
 
+* Volunteer
+    - Information covered the Navbar
+    - Had a z-index set to 1 so removed it
+    - Fixed
+
 ### Contact Form:
 
 * Volunteer Form
@@ -140,9 +145,10 @@
     - (Only links to each websites home page as the company is fictional)
     - Test passed
 
-* !Important
+
 ### Button colours
 
+* !Important
 Bootstrap button colour options not fitting in with scheme of website.
 Some developers suggest it is valid on occasion as said [here](https://css-tricks.com/when-using-important-is-the-right-choice/). This [website] states that it should only be used when necessary and other options are gone. 
 In order to change the bootstrap-secondary element, the background-color and color were changed and !important added at the end. 
