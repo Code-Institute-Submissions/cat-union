@@ -11,6 +11,7 @@
 1. [UX](#ux)
    - [User Stories](#user-stories)
    - [Viability](#project-viability)
+   - [Responsive](#responsive)
    - [Frameworks](#frameworks-used)
    - [Typography](#typography)
    - [Colors](#colors)
@@ -68,6 +69,12 @@
 | E   | Location and contact info      |     3      |         4 |
 | F   | Cat Care support               |     2      |         4 |
 |     | Total                          |     23     |        26 |
+
+### Responsive
+
+I used this [website](http://ami.responsivedesign.is/#) to test how responsive my website is on different devices.
+
+<img src="assets/images/responsive.png">
 
 ### Frameworks Used
 
@@ -211,6 +218,20 @@ For detailed information of the testing follow the link to the document [here](t
 
   - https://adam181189.github.io/cat-union/
 
+*In order to deploy the website, the following was actioned:
+1. Navigate to GitHub repository:
+    - [Adam181189 repository](https://github.com/adam181189?tab=repositories)
+2. Open the Cat-Union [repository](https://github.com/adam181189/cat-union) 
+3. Click on the **Settings** tab at the top:
+    - [settings](https://github.com/adam181189/cat-union/settings)
+3. Scroll down on that page to the **GitHub Pages** section.
+4. The first drop-down field should be **Source** with *None* preselected.
+5. Select **master branch** from the list.
+6. The page should refresh.
+7. Scroll back down to the **GitHub Pages** section.
+8. You should now have a deployed link:
+    - Your site is published at [https://adam181189.github.io/cat-union/](https://adam181189.github.io/cat-union/)
+
 ##### Back to [top](#table-of-contents)
 ---
 
@@ -220,7 +241,7 @@ For detailed information of the testing follow the link to the document [here](t
 
 ### Content
 
-- [Camila-Ribeiro](https://github.com/Camila-Ribeiro) - README.md inspiration
+- All written content was my own.
 
 ### Media
 
