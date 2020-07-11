@@ -508,6 +508,7 @@ header {
 
 .sponsor-box {
 	padding-top: 10px;
+    padding-left:100px;
 }
 
 
@@ -615,6 +616,24 @@ footer {
 	padding: 10px;
 }
 
+@media screen and (max-width: 2400px) {
+	.upper-statement {
+		left: 1700px;
+	}
+}
+
+@media screen and (max-width: 2100px) {
+	.upper-statement {
+		left: 1400px;
+	}
+}
+
+@media screen and (max-width: 1800px) {
+	.upper-statement {
+		left: 1000px;
+	}
+}
+
 @media screen and (max-width: 1366px) {
 	.upper-statement {
 		left: 800px;
@@ -670,10 +689,20 @@ footer {
 		bottom: 290px;
 		left: 350px;
 	}
+
+
+
 	.sponsor-panel img {
-		margin: auto;
+		margin: 0 auto;
 		display: block;
+        
 	}
+
+    .sponsor-box {
+	    padding-top: 10px;
+        padding-left:0px;
+    }
+
 	.sponsor-details {
 		position: relative;
 		right: 150px;
