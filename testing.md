@@ -71,6 +71,20 @@
     - Working as intended
     - Test
 
+* What We do statement
+    - Asked on slack Peer-Code-Review for some support 
+    - user @Līga noticed that on a smaller screen the first statement went off the screen on her monitor size
+    - Added media screen at smaller sizes to correct it
+    - fixed
+
+* Form sitting too far right
+    - Used dev tools to find which attribute is affecting it's position
+    - Changed the grid from col-md-12 to 6 and this made it the correct size but too far to the left.
+    - Changed 8em to 25% and it made it sit in the middle. 
+    - Testing on all sizes
+    - Fixed
+    
+
 ### Navigation
 
 * Navbar
@@ -98,6 +112,15 @@
     - Form submitted 
     - Repeated steps 1-10 on mobile and tablet.
     - Test passed
+
+### Design choices:
+
+* Sponsor cat images
+    - Asked on slack Peer-Code-Review for some support 
+    - user @Līga noticed that the image and info pushes to the right
+    - Used Dev tools to modify the location of the image in the sponsor-box class
+    - Changed the padding-left to 100 pixels.
+    - Much happier with layout
 
 ### Buttons
 
