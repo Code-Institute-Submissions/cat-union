@@ -494,7 +494,7 @@ header {
 	padding: 50px;
 	color: white;
 	position: relative;
-	left: 17.5em;
+	left:25%;
 	opacity: 0.8;
 }
 
@@ -638,6 +638,10 @@ footer {
 	.upper-statement {
 		left: 800px;
 	}
+    .sponsor-box {
+	padding-top: 10px;
+    padding-left:15px;
+}
 }
 
 @media screen and (max-width: 1200px) {
@@ -826,7 +830,8 @@ footer {
 		min-height: 300px;
 	}
 	.volunteer-application {
-		left: 0em;
+		left: 4em;
+        min-width:250px;
 	}
 }
 
@@ -886,6 +891,9 @@ footer {
 	.volunteer-background {
 		min-height: 303px;
 		padding-bottom: 10px;
+	}
+    .volunteer-application {
+		left: 0em;
 	}
 	.advice-page-background {
 		background-position-x: 20%;
