@@ -42,19 +42,19 @@
 
 ### User Stories
 
-- As a user I want to be able to adopt a Cat or a Kitten to care for.
+- As a user, I want to be able to adopt a Cat or a Kitten to care for.
 
-- As a user I want to be able to donate to the charity so I can give my support.
+- As a user, I want to be able to donate to the charity so I can give my support.
 
-- As a user I want to be able to sponsor a Cat to a Kitten so I can give support to a specific cat the charity cares for.
+- As a user, I want to be able to sponsor a Cat to a Kitten so I can give support to a specific cat the charity cares for.
 
-- As a user I want some support in how to best take care of Cats and Kittens.
+- As a user, I want some support in how to best take care of Cats and Kittens.
 
-- As a user I want to be able to contact the charity.
+- As a user, I want to be able to contact the charity.
 
-- As a user I want the website to run on different screen sizes.
+- As a user, I want the website to run on different screen sizes.
 
-- As a user, I want to be able to apply to volunteer my times to help the charity.
+- As a user, I want to be able to apply to volunteer my time to help the charity.
 
 - As a user, I want to be able to raise funds in other ways so I can give support to the charity.
 
@@ -64,29 +64,29 @@
 | --- | ------------------------------ | :--------: | --------: |
 | A   | Information about the charity  |     5      |         5 |
 | B   | Generate money for the charity |     5      |         4 |
-| C   | Adoption Info                  |     3      |         4 |
-| D   | Responsive Application Form    |     5      |         4 |
+| C   | Adoption info                  |     3      |         4 |
+| D   | Responsive application form    |     5      |         4 |
 | E   | Location and contact info      |     3      |         4 |
-| F   | Cat Care support               |     2      |         4 |
-|     | Total                          |     23     |        26 |
+| F   | Cat care support               |     2      |         4 |
+|     | Total                          |     23     |        25 |
 
 ### Responsive
 
-I used this [website](http://ami.responsivedesign.is/#) to test how responsive my website is on different devices.
+[Am I Responsive?](http://ami.responsivedesign.is/#) was used to test how responsive the website is on different devices.
 
 <img src="assets/images/responsive.png">
 
 ### Frameworks Used
 
 - [Bootstrap](https://getbootstrap.com/)
+- [jQuery](https://jquery.com/)
 
 ### Typography
 
-The following [webpage](https://www.websitebuilderexpert.com/designing-websites/pick-best-font-style-for-website/) was useful in order to decide which font style to select. A display type was chosen due to its friendly accessible approach, and sans-Serif as the backup font.
+The following [webpage](https://www.websitebuilderexpert.com/designing-websites/pick-best-font-style-for-website/) was useful in order to decide which font style to select. A display type was chosen due to its friendly accessible approach, and Sans-Serif as the fallback font.
 
-- 1 [Google Font](https://fonts.google.com/) was used throughout this website:
-
-* [Patua One](https://fonts.google.com/specimen/Patua+One?category=Display&sidebar.open&selection.family=DM+Serif+Display|Kaushan+Script|Patua+One)
+1 [Google Font](https://fonts.google.com/) was used throughout this website:
+- [Patua One](https://fonts.google.com/specimen/Patua+One?category=Display&sidebar.open&selection.family=DM+Serif+Display|Kaushan+Script|Patua+One)
 
 ### Colors
 
@@ -99,12 +99,12 @@ The following [website](https://www.canva.com/colors/color-wheel/) was useful in
 
 ### Icons
 
-- [Font Awesome 5.13.1](https://fontawesome.com/)
-  The following 4 Fontawesome icons were used.
-  - [map](https://fontawesome.com/icons/map?style=solid) - Used in the Contact Us modal
-  - [phone](https://fontawesome.com/icons/phone?style=solid) - Used in the Contact Us modal
-  - [mail](https://fontawesome.com/icons/envelope?style=solid) - Used in the Contact Us modal
-  - [copyright](https://fontawesome.com/icons/copyright?style=solid) - Used in the footer
+[Font Awesome 5.13.1](https://fontawesome.com/)
+  The following 4 Font Awesome icons were used.
+  - [map](https://fontawesome.com/icons/map?style=solid) - used in the Contact Us modal
+  - [phone](https://fontawesome.com/icons/phone?style=solid) - used in the Contact Us modal
+  - [mail](https://fontawesome.com/icons/envelope?style=solid) - used in the Contact Us modal
+  - [copyright](https://fontawesome.com/icons/copyright?style=solid) - used in the footer
 
 ### Wireframes
 
@@ -112,7 +112,7 @@ The following [website](https://www.canva.com/colors/color-wheel/) was useful in
 
 ### Logo
 
-- Used [Gimp](https://www.gimp.org/) to create the logo by editing [this](https://pixabay.com/vectors/heart-love-cats-kitten-kitty-2766277/) image. The website font from googlefonts was then added to gimp and then inserted underneath the image to create the logo.
+- [GIMP](https://www.gimp.org/) was used to create the logo by editing [this](https://pixabay.com/vectors/heart-love-cats-kitten-kitty-2766277/) image. The website font from Google Fonts was then added to GIMP and then inserted underneath the image to create the logo.
 ##### Back to [top](#table-of-contents)
 ---
 
@@ -128,33 +128,33 @@ The following [website](https://www.canva.com/colors/color-wheel/) was useful in
 
 - Donate
 
-  - Allows user to give money to the charity by pressing a button and going to checkout through paypal. (dummy)
+  - Allows user to give money to the charity by pressing a button and going to checkout through PayPal. (dummy)
 
 - Sponsor
 
-  - Allows user to select a cat to sponsor by pressing a button and going to checkout through paypal. (dummy)
+  - Allows user to select a cat to sponsor by pressing a button and going to checkout through PayPal. (dummy)
 
 - Videos
 
-  - Allows users to watch appropriate videos on the page which give support with cat care
+  - Allows users to watch appropriate videos on the page which give support with cat care.
 
 - Navbar
 
-  - Navbars are used throughout which work effectively to link between all four pages. Logo also leads back to Home. On smaller screens the links become a burger bar.
+  - Navbars are used throughout which work effectively to link between all pages. Logo also leads back to Home. On smaller screens the links become a toggle button.
 
 - Footer
 
-  - Footers are used throughout which allow users to use links to appropriate facebook twitter and instagram page. Users can also follow links to important divs of adopt, donate and sponsor. There is also a button for users to click which links to a modal with a map and important contact details.
+  - Footers are used throughout which allow users to use links to appropriate Facebook, Twitter and Instagram page. Users can also follow links to important anchors of Donate, Adopt and Sponsor. There is also a button for users to click which links to a Bootstrap modal with a map and contact details.
 
 - Volunteer Form
 
-  - Allows users to fill in a form to volunteer. The form includes a file attachment so users can attach their CV's.
+  - Allows users to fill in a form to volunteer. The form includes a file upload button so users can attach their covering letters.
 
-### Features Left to Implement
+### Features to Implement
 
 - Support-Us buttons checkout
 
-  - The purchase page of sponsor/donate will eventually link to a paypal purchase page. Demo example currently
+  - The purchase page of Donate / Sponser will eventually link to a PayPal purchase page. Currently links to a demo.
 
 ##### Back to [top](#table-of-contents)
 
@@ -170,7 +170,7 @@ The following [website](https://www.canva.com/colors/color-wheel/) was useful in
 
 - CSS
 
-  - This project uses CSS to manipulate the bootstrap elements to fit how I want them, and to lay out my website specifically to how it was envisioned.
+  - This project uses CSS to override the Bootstrap elements and apply the determined styling.
 
 ##### Back to [top](#table-of-contents)
 
@@ -184,11 +184,11 @@ The following [website](https://www.canva.com/colors/color-wheel/) was useful in
 
 - HTML
 
-  - [W3C HTML Validator](https://validator.w3.org/) Document checking completed. No errors or warnings to show.
+  - [W3C HTML Validator](https://validator.w3.org/) "Document checking completed. No errors or warnings to show."
 
 - CSS
 
-  - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) Congratulations! No Error Found. This document validates as CSS level 3 + SVG !
+  - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) "Congratulations! No Error Found. This document validates as CSS level 3 + SVG !"
 
 ### Chrome's DevTools Audit report
 
@@ -196,7 +196,7 @@ The following [website](https://www.canva.com/colors/color-wheel/) was useful in
 
 ### Testing Methods
 
-For detailed information of the testing follow the link to the document [here](testing.md)
+For information on the testing, follow the link to the document [here](testing.md)
 ##### Back to [top](#table-of-contents)
 ---
 
@@ -204,7 +204,7 @@ For detailed information of the testing follow the link to the document [here](t
 
 ---
 
-\*The [CatsUnion repository](https://github.com/adam181189/cat-union) was developed using github workspaces, and all commits were pushed to GitHub using Git.
+\*The [CatsUnion repository](https://github.com/adam181189/cat-union) was developed using GitHub Workspaces, and all commits were pushed to GitHub using Git.
 
 \*Commits were pushed every time important sections were completed in order to create useful ongoing checkpoints.
 
@@ -220,17 +220,18 @@ For detailed information of the testing follow the link to the document [here](t
 
 *In order to deploy the website, the following was actioned:
 1. Navigate to GitHub repository:
-    - [Adam181189 repository](https://github.com/adam181189?tab=repositories)
-2. Open the Cat-Union [repository](https://github.com/adam181189/cat-union) 
+    - [adam181189 repository](https://github.com/adam181189?tab=repositories)
+2. Open the cat-union repository:
+    - [cat-union repository](https://github.com/adam181189/cat-union) 
 3. Click on the **Settings** tab at the top:
-    - [settings](https://github.com/adam181189/cat-union/settings)
-3. Scroll down on that page to the **GitHub Pages** section.
-4. The first drop-down field should be **Source** with *None* preselected.
+    - [Settings](https://github.com/adam181189/cat-union/settings)
+3. Scroll down to the **GitHub Pages** section.
+4. The first drop-down field should be **Source** with *None* pre-selected.
 5. Select **master branch** from the list.
 6. The page should refresh.
-7. Scroll back down to the **GitHub Pages** section.
-8. You should now have a deployed link:
-    - Your site is published at [https://adam181189.github.io/cat-union/](https://adam181189.github.io/cat-union/)
+7. Scroll down to the **GitHub Pages** section.
+8. There will now be a deployed link:
+    - The site is published at [https://adam181189.github.io/cat-union/](https://adam181189.github.io/cat-union/)
 
 ##### Back to [top](#table-of-contents)
 ---
@@ -245,12 +246,12 @@ For detailed information of the testing follow the link to the document [here](t
 
 ### Media
 
-- [Pixabay](http://pixabay.com) - Database Images
-- [Unsplash](http://Unsplash.com) - Database Images
-- [Googlemaps](https://www.google.com/maps/place/Little+Wenlock,+Telford/@52.6584399,-2.5252526,16z/data=!3m1!4b1!4m5!3m4!1s0x487078b978614055:0xa3c1b74d6b0c7214!8m2!3d52.658066!4d-2.5225919) - image modified to include fake location
+- [Pixabay](http://pixabay.com/) - Database Images
+- [Unsplash](http://unsplash.com/) - Database Images
+- [Google Maps](https://www.google.com/maps/place/Little+Wenlock,+Telford/@52.6584399,-2.5252526,16z/data=!3m1!4b1!4m5!3m4!1s0x487078b978614055:0xa3c1b74d6b0c7214!8m2!3d52.658066!4d-2.5225919) - image modified to include fake location
 
 ### Acknowledgements
 
-I received inspiration for this project from https://www.dogstrust.org.uk/
+Inspiration for this project was drawn from [Dogs Trust](https://www.dogstrust.org.uk/)
 
 ##### Back to [top](#table-of-contents)
