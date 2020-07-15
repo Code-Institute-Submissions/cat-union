@@ -429,6 +429,16 @@ header {
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+.fundraising-info a {
+    text-decoration: none;
+    color: rgb(209, 209, 209);
+}
+
+.fundraising-info a:hover {
+    text-decoration: underline;
+    color: #e5aa70;
+}
+
 .fundraising-info {
 	font-size: 20px;
 	text-align: center;
@@ -476,6 +486,7 @@ header {
 	text-align: center;
 	height: 200px;
 }
+
 
 #coverletter {
 	width: 100%;
@@ -641,6 +652,7 @@ footer {
     .sponsor-box {
 	padding-top: 10px;
     padding-left:15px;
+    margin-bottom: 20px;
 }
 }
 
@@ -727,7 +739,6 @@ footer {
 	.volunteer-application {
 		padding: 10px;
 		left: 8em;
-		font-family: "Roboto", sans-serif;
 	}
 }
 
@@ -833,6 +844,7 @@ footer {
 		left: 4em;
         min-width:250px;
 	}
+    
 }
 
 @media screen and (max-width: 640px) {
@@ -981,8 +993,8 @@ footer {
 		min-height: 303px;
 	}
 	.volunteer-application {
-		padding: 20px 0px 20px 0px;
-		width: 70%;
+		padding: 20px;
+     	width: 70%;
 	}
 }
 
